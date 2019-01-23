@@ -1,0 +1,37 @@
+{
+  "dataSet": "dataset-002-001",
+  "dataSetType": "unitTest",
+  "desc": "unitTest",
+  "dim": [
+    "10",
+    "10"
+  ],
+  "format": "tga",
+  "images": [
+    [
+      "img000.tga",
+      "mask000.tga"
+    ],
+    [
+      "img001.tga",
+      "mask001.tga"
+    ],
+    [
+      "img000.tga",
+      "mask000.tga"
+    ],
+    [
+      "img001.tga",
+      "mask001.tga"
+    ],
+    [
+      "img000.tga",
+      "mask000.tga"
+    ],
+    [
+      "img001.tga",
+      "mask001.tga"
+    ]
+  ],
+  "nbImg": "2"
+}
