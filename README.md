@@ -1,8 +1,8 @@
 # SDSIA (Synthetic Data Set for Image Analysis)
 
-SDSIA is a Python module to generate synthetic data sets for image analysis.
+SDSIA is a Python module to generate synthetic data sets for image analysis, and a C library to manipulate these data sets.
 
-The goal of this tool is to provide a way to easily generate data sets of images used by image analysis softwares or algorithms, in a context of learning or development.
+The goal of the Python module is to provide a way to easily generate data sets of images used by image analysis softwares or algorithms, in a context of learning or development.
 
 The generation of the images is made using the 3D rendering software POV-Ray. This software uses text scripts to defined the scene to render, so it's very easy to parameterize a script to create variations of a given scene. The Python module then render as many samples as needed in the set, each time using different parameters' value.
 
@@ -10,6 +10,9 @@ By creating its own POV-Ray script, the user can create any needed data set, sel
 
 Once the user has written the script to render images, the python module takes care of the tedious tasks of rendering (only needed data sets), files and folders management, creation of a description file in JSON format for later use. It also generates perfect masks (black and white image) by modifying the texture properties of the objects in the scene.
 
-The number of images per data set, the dimensions and format of each image are also defined by the user. Then, one can create sets corresponding to its needs, in particular memory and disk storage limits, or processing time limits.
+The number of images per data set, the dimensions and format of each image are also defined by the user. Then, one can create sets corresponding to its needs, in particular memory, disk storage, processing time limits.
 
-The current version of SDSIA is designed for image segmentation (location of an object in a scene). However it has been developped with the view to be extended to other kind of data sets.
+The current version of SDSIA is designed for image segmentation (localization of pixels corresponding to an object in a scene). However it has been developped with the view to be extended to other kind of data sets.
+
+The C library offers the following functionalities: loading a data set from its description file, spitting the data set into user defined categories (e.g. training, validation, test), shuffling the data set, looping through the samples of the data set. It provides the samples of the data set as GenBrush objects to manipulate them easily through this library's functionalities.
+

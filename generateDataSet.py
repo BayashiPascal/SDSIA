@@ -78,7 +78,7 @@ class DataSet:
       # Add the info about the DataSet to the content
       content["dataSet"] = self._name
       content["desc"] = self._desc
-      content["dataSetType"] = self._desc
+      content["dataSetType"] = self._type
       content["nbImg"] = self._nbImg
       content["dim"] = self._dim
       content["format"] = self._format
@@ -178,7 +178,7 @@ class DataSet:
         os.remove(iniFilePath)
         
         # Add the image and mask to the lists
-        self._images.append([imgFileName, maskFileName])
+        self._images.append({"img":imgFileName, "mask":maskFileName})
       
       # Return the success flag
       return True
@@ -278,8 +278,8 @@ class DataSetGenerator:
 
       # Run the unit tests if requested
       if flagUnitTest:
-        self.RunUnitTest()
-        quit()
+        ret = self.RunUnitTest()
+        quit(ret)
 
     except Exception as exc:
       PrintExc(exc)
@@ -670,37 +670,43 @@ class DataSetGenerator:
         'to\n', 
         '  /home/bayashi/GitHub/SDSIA/UnitTestOut/001/001\n', 
         '\n', 
-        '000/002 Rendering image /home/bayashi/GitHub/SDSIA/UnitTestOut/001/001/img000.tga ...\n', 
+        '000/003 Rendering image /home/bayashi/GitHub/SDSIA/UnitTestOut/001/001/img000.tga ...\n', 
         '        Rendering mask /home/bayashi/GitHub/SDSIA/UnitTestOut/001/001/mask000.tga ...\n', 
-        '001/002 Rendering image /home/bayashi/GitHub/SDSIA/UnitTestOut/001/001/img001.tga ...\n', 
+        '001/003 Rendering image /home/bayashi/GitHub/SDSIA/UnitTestOut/001/001/img001.tga ...\n', 
         '        Rendering mask /home/bayashi/GitHub/SDSIA/UnitTestOut/001/001/mask001.tga ...\n', 
+        '002/003 Rendering image /home/bayashi/GitHub/SDSIA/UnitTestOut/001/001/img002.tga ...\n', 
+        '        Rendering mask /home/bayashi/GitHub/SDSIA/UnitTestOut/001/001/mask002.tga ...\n', 
         '\n', 
         'Generation of \n', 
-        '  /home/bayashi/GitHub/SDSIA/UnitTestOut/001/001\n', 
-        'completed.\n', 
-        '\n',
+        '  /home/bayashi/GitHub/SDSIA/UnitTestOut/001/001\n', 'completed.\n', 
+        '\n', 
         ' === Generate data set for\n', 
         '  /home/bayashi/GitHub/SDSIA/UnitTestIn/dataset-001-002.pov\n', 
         'to\n', 
         '  /home/bayashi/GitHub/SDSIA/UnitTestOut/001/002\n', 
         '\n', 
-        '000/002 Rendering image /home/bayashi/GitHub/SDSIA/UnitTestOut/001/002/img000.tga ...\n', 
+        '000/003 Rendering image /home/bayashi/GitHub/SDSIA/UnitTestOut/001/002/img000.tga ...\n', 
         '        Rendering mask /home/bayashi/GitHub/SDSIA/UnitTestOut/001/002/mask000.tga ...\n', 
-        '001/002 Rendering image /home/bayashi/GitHub/SDSIA/UnitTestOut/001/002/img001.tga ...\n', 
+        '001/003 Rendering image /home/bayashi/GitHub/SDSIA/UnitTestOut/001/002/img001.tga ...\n', 
         '        Rendering mask /home/bayashi/GitHub/SDSIA/UnitTestOut/001/002/mask001.tga ...\n', 
+        '002/003 Rendering image /home/bayashi/GitHub/SDSIA/UnitTestOut/001/002/img002.tga ...\n', 
+        '        Rendering mask /home/bayashi/GitHub/SDSIA/UnitTestOut/001/002/mask002.tga ...\n', 
         '\n', 
         'Generation of \n', 
-        '  /home/bayashi/GitHub/SDSIA/UnitTestOut/001/002\n', 'completed.\n', 
+        '  /home/bayashi/GitHub/SDSIA/UnitTestOut/001/002\n', 
+        'completed.\n', 
         '\n', 
         ' === Generate data set for\n', 
         '  /home/bayashi/GitHub/SDSIA/UnitTestIn/dataset-002-001.pov\n', 
         'to\n', 
         '  /home/bayashi/GitHub/SDSIA/UnitTestOut/002/001\n', 
         '\n', 
-        '000/002 Rendering image /home/bayashi/GitHub/SDSIA/UnitTestOut/002/001/img000.tga ...\n', 
+        '000/003 Rendering image /home/bayashi/GitHub/SDSIA/UnitTestOut/002/001/img000.tga ...\n', 
         '        Rendering mask /home/bayashi/GitHub/SDSIA/UnitTestOut/002/001/mask000.tga ...\n', 
-        '001/002 Rendering image /home/bayashi/GitHub/SDSIA/UnitTestOut/002/001/img001.tga ...\n', 
+        '001/003 Rendering image /home/bayashi/GitHub/SDSIA/UnitTestOut/002/001/img001.tga ...\n', 
         '        Rendering mask /home/bayashi/GitHub/SDSIA/UnitTestOut/002/001/mask001.tga ...\n', 
+        '002/003 Rendering image /home/bayashi/GitHub/SDSIA/UnitTestOut/002/001/img002.tga ...\n', 
+        '        Rendering mask /home/bayashi/GitHub/SDSIA/UnitTestOut/002/001/mask002.tga ...\n', 
         '\n', 
         'Generation of \n', 
         '  /home/bayashi/GitHub/SDSIA/UnitTestOut/002/001\n', 'completed.\n', 
@@ -720,19 +726,27 @@ class DataSetGenerator:
           not os.path.exists(os.path.join("UnitTestOut", "001", "001",
           "img001.tga")) or \
           not os.path.exists(os.path.join("UnitTestOut", "001", "001",
+          "img002.tga")) or \
+          not os.path.exists(os.path.join("UnitTestOut", "001", "001",
           "mask000.tga")) or \
           not os.path.exists(os.path.join("UnitTestOut", "001", "001",
           "mask001.tga")) or \
+          not os.path.exists(os.path.join("UnitTestOut", "001", "001",
+          "mask002.tga")) or \
           not os.path.exists(os.path.join("UnitTestOut", "001", "002",
           "dataset.json")) or \
           not os.path.exists(os.path.join("UnitTestOut", "001", "002",
           "img000.tga")) or \
           not os.path.exists(os.path.join("UnitTestOut", "001", "002",
           "img001.tga")) or \
+          not os.path.exists(os.path.join("UnitTestOut", "001", "002",
+          "img002.tga")) or \
           not os.path.exists(os.path.join("UnitTestOut", "001", "002",
           "mask000.tga")) or \
           not os.path.exists(os.path.join("UnitTestOut", "001", "002",
           "mask001.tga")) or \
+          not os.path.exists(os.path.join("UnitTestOut", "001", "002",
+          "mask002.tga")) or \
           not os.path.exists(os.path.join("UnitTestOut", "002", "001",
           "dataset.json")) or \
           not os.path.exists(os.path.join("UnitTestOut", "002", "001",
@@ -740,9 +754,13 @@ class DataSetGenerator:
           not os.path.exists(os.path.join("UnitTestOut", "002", "001",
           "img001.tga")) or \
           not os.path.exists(os.path.join("UnitTestOut", "002", "001",
+          "img002.tga")) or \
+          not os.path.exists(os.path.join("UnitTestOut", "002", "001",
           "mask000.tga")) or \
           not os.path.exists(os.path.join("UnitTestOut", "002", "001",
-          "mask001.tga")):
+          "mask001.tga")) or \
+          not os.path.exists(os.path.join("UnitTestOut", "002", "001",
+          "mask002.tga")):
           flagSuccess = False
       check = [
         '\n', 
@@ -777,10 +795,12 @@ class DataSetGenerator:
         'to\n', 
         '  /home/bayashi/GitHub/SDSIA/UnitTestOut/001/001\n', 
         '\n', 
-        '000/002 Rendering image /home/bayashi/GitHub/SDSIA/UnitTestOut/001/001/img000.tga ...\n', 
+        '000/003 Rendering image /home/bayashi/GitHub/SDSIA/UnitTestOut/001/001/img000.tga ...\n', 
         '        Rendering mask /home/bayashi/GitHub/SDSIA/UnitTestOut/001/001/mask000.tga ...\n', 
-        '001/002 Rendering image /home/bayashi/GitHub/SDSIA/UnitTestOut/001/001/img001.tga ...\n', 
+        '001/003 Rendering image /home/bayashi/GitHub/SDSIA/UnitTestOut/001/001/img001.tga ...\n', 
         '        Rendering mask /home/bayashi/GitHub/SDSIA/UnitTestOut/001/001/mask001.tga ...\n', 
+        '002/003 Rendering image /home/bayashi/GitHub/SDSIA/UnitTestOut/001/001/img002.tga ...\n', 
+        '        Rendering mask /home/bayashi/GitHub/SDSIA/UnitTestOut/001/001/mask002.tga ...\n', 
         '\n', 
         'Generation of \n', 
         '  /home/bayashi/GitHub/SDSIA/UnitTestOut/001/001\n', 
@@ -791,12 +811,14 @@ class DataSetGenerator:
         'to\n', 
         '  /home/bayashi/GitHub/SDSIA/UnitTestOut/001/002\n', 
         '\n', 
-        '000/002 Rendering image /home/bayashi/GitHub/SDSIA/UnitTestOut/001/002/img000.tga ...\n', 
+        '000/003 Rendering image /home/bayashi/GitHub/SDSIA/UnitTestOut/001/002/img000.tga ...\n', 
         '        Rendering mask /home/bayashi/GitHub/SDSIA/UnitTestOut/001/002/mask000.tga ...\n', 
-        '001/002 Rendering image /home/bayashi/GitHub/SDSIA/UnitTestOut/001/002/img001.tga ...\n', 
+        '001/003 Rendering image /home/bayashi/GitHub/SDSIA/UnitTestOut/001/002/img001.tga ...\n', 
         '        Rendering mask /home/bayashi/GitHub/SDSIA/UnitTestOut/001/002/mask001.tga ...\n', 
+        '002/003 Rendering image /home/bayashi/GitHub/SDSIA/UnitTestOut/001/002/img002.tga ...\n', 
+        '        Rendering mask /home/bayashi/GitHub/SDSIA/UnitTestOut/001/002/mask002.tga ...\n', 
         '\n', 
-        'Generation of \n', 
+        'Generation of \n',
         '  /home/bayashi/GitHub/SDSIA/UnitTestOut/001/002\n', 
         'completed.\n', 
         '\n', 
@@ -805,10 +827,12 @@ class DataSetGenerator:
         'to\n', 
         '  /home/bayashi/GitHub/SDSIA/UnitTestOut/002/001\n', 
         '\n', 
-        '000/002 Rendering image /home/bayashi/GitHub/SDSIA/UnitTestOut/002/001/img000.tga ...\n', 
+        '000/003 Rendering image /home/bayashi/GitHub/SDSIA/UnitTestOut/002/001/img000.tga ...\n', 
         '        Rendering mask /home/bayashi/GitHub/SDSIA/UnitTestOut/002/001/mask000.tga ...\n', 
-        '001/002 Rendering image /home/bayashi/GitHub/SDSIA/UnitTestOut/002/001/img001.tga ...\n', 
+        '001/003 Rendering image /home/bayashi/GitHub/SDSIA/UnitTestOut/002/001/img001.tga ...\n', 
         '        Rendering mask /home/bayashi/GitHub/SDSIA/UnitTestOut/002/001/mask001.tga ...\n', 
+        '002/003 Rendering image /home/bayashi/GitHub/SDSIA/UnitTestOut/002/001/img002.tga ...\n', 
+        '        Rendering mask /home/bayashi/GitHub/SDSIA/UnitTestOut/002/001/mask002.tga ...\n', 
         '\n', 
         'Generation of \n', 
         '  /home/bayashi/GitHub/SDSIA/UnitTestOut/002/001\n', 
@@ -834,10 +858,13 @@ class DataSetGenerator:
 
       # Inform the user
       if flagSuccess:
-        print("UnitTest succeeded")
+        print("UnitTest of generateDataSet.py succeeded")
+        ret = 0
       else:
-        print("UnitTest failed")
+        print("UnitTest of generateDataSet.py failed")
+        ret = 1
 
+      return ret
     except Exception as exc:
       PrintExc(exc)
   

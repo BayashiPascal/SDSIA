@@ -1,6 +1,6 @@
 {
   "dataSet": "dataset-002-002",
-  "dataSetType": "A cube of various non-uniform color and a cylinder of various non-uniform color on a background of various uniform color. Various position, size and rotation. The cube is the target.",
+  "dataSetType": "0",
   "desc": "A cube of various non-uniform color and a cylinder of various non-uniform color on a background of various uniform color. Various position, size and rotation. The cube is the target.",
   "dim": [
     "250",
@@ -8,406 +8,2406 @@
   ],
   "format": "tga",
   "images": [
-    [
-      "img000.tga",
-      "mask000.tga"
-    ],
-    [
-      "img001.tga",
-      "mask001.tga"
-    ],
-    [
-      "img002.tga",
-      "mask002.tga"
-    ],
-    [
-      "img003.tga",
-      "mask003.tga"
-    ],
-    [
-      "img004.tga",
-      "mask004.tga"
-    ],
-    [
-      "img005.tga",
-      "mask005.tga"
-    ],
-    [
-      "img006.tga",
-      "mask006.tga"
-    ],
-    [
-      "img007.tga",
-      "mask007.tga"
-    ],
-    [
-      "img008.tga",
-      "mask008.tga"
-    ],
-    [
-      "img009.tga",
-      "mask009.tga"
-    ],
-    [
-      "img010.tga",
-      "mask010.tga"
-    ],
-    [
-      "img011.tga",
-      "mask011.tga"
-    ],
-    [
-      "img012.tga",
-      "mask012.tga"
-    ],
-    [
-      "img013.tga",
-      "mask013.tga"
-    ],
-    [
-      "img014.tga",
-      "mask014.tga"
-    ],
-    [
-      "img015.tga",
-      "mask015.tga"
-    ],
-    [
-      "img016.tga",
-      "mask016.tga"
-    ],
-    [
-      "img017.tga",
-      "mask017.tga"
-    ],
-    [
-      "img018.tga",
-      "mask018.tga"
-    ],
-    [
-      "img019.tga",
-      "mask019.tga"
-    ],
-    [
-      "img020.tga",
-      "mask020.tga"
-    ],
-    [
-      "img021.tga",
-      "mask021.tga"
-    ],
-    [
-      "img022.tga",
-      "mask022.tga"
-    ],
-    [
-      "img023.tga",
-      "mask023.tga"
-    ],
-    [
-      "img024.tga",
-      "mask024.tga"
-    ],
-    [
-      "img025.tga",
-      "mask025.tga"
-    ],
-    [
-      "img026.tga",
-      "mask026.tga"
-    ],
-    [
-      "img027.tga",
-      "mask027.tga"
-    ],
-    [
-      "img028.tga",
-      "mask028.tga"
-    ],
-    [
-      "img029.tga",
-      "mask029.tga"
-    ],
-    [
-      "img030.tga",
-      "mask030.tga"
-    ],
-    [
-      "img031.tga",
-      "mask031.tga"
-    ],
-    [
-      "img032.tga",
-      "mask032.tga"
-    ],
-    [
-      "img033.tga",
-      "mask033.tga"
-    ],
-    [
-      "img034.tga",
-      "mask034.tga"
-    ],
-    [
-      "img035.tga",
-      "mask035.tga"
-    ],
-    [
-      "img036.tga",
-      "mask036.tga"
-    ],
-    [
-      "img037.tga",
-      "mask037.tga"
-    ],
-    [
-      "img038.tga",
-      "mask038.tga"
-    ],
-    [
-      "img039.tga",
-      "mask039.tga"
-    ],
-    [
-      "img040.tga",
-      "mask040.tga"
-    ],
-    [
-      "img041.tga",
-      "mask041.tga"
-    ],
-    [
-      "img042.tga",
-      "mask042.tga"
-    ],
-    [
-      "img043.tga",
-      "mask043.tga"
-    ],
-    [
-      "img044.tga",
-      "mask044.tga"
-    ],
-    [
-      "img045.tga",
-      "mask045.tga"
-    ],
-    [
-      "img046.tga",
-      "mask046.tga"
-    ],
-    [
-      "img047.tga",
-      "mask047.tga"
-    ],
-    [
-      "img048.tga",
-      "mask048.tga"
-    ],
-    [
-      "img049.tga",
-      "mask049.tga"
-    ],
-    [
-      "img050.tga",
-      "mask050.tga"
-    ],
-    [
-      "img051.tga",
-      "mask051.tga"
-    ],
-    [
-      "img052.tga",
-      "mask052.tga"
-    ],
-    [
-      "img053.tga",
-      "mask053.tga"
-    ],
-    [
-      "img054.tga",
-      "mask054.tga"
-    ],
-    [
-      "img055.tga",
-      "mask055.tga"
-    ],
-    [
-      "img056.tga",
-      "mask056.tga"
-    ],
-    [
-      "img057.tga",
-      "mask057.tga"
-    ],
-    [
-      "img058.tga",
-      "mask058.tga"
-    ],
-    [
-      "img059.tga",
-      "mask059.tga"
-    ],
-    [
-      "img060.tga",
-      "mask060.tga"
-    ],
-    [
-      "img061.tga",
-      "mask061.tga"
-    ],
-    [
-      "img062.tga",
-      "mask062.tga"
-    ],
-    [
-      "img063.tga",
-      "mask063.tga"
-    ],
-    [
-      "img064.tga",
-      "mask064.tga"
-    ],
-    [
-      "img065.tga",
-      "mask065.tga"
-    ],
-    [
-      "img066.tga",
-      "mask066.tga"
-    ],
-    [
-      "img067.tga",
-      "mask067.tga"
-    ],
-    [
-      "img068.tga",
-      "mask068.tga"
-    ],
-    [
-      "img069.tga",
-      "mask069.tga"
-    ],
-    [
-      "img070.tga",
-      "mask070.tga"
-    ],
-    [
-      "img071.tga",
-      "mask071.tga"
-    ],
-    [
-      "img072.tga",
-      "mask072.tga"
-    ],
-    [
-      "img073.tga",
-      "mask073.tga"
-    ],
-    [
-      "img074.tga",
-      "mask074.tga"
-    ],
-    [
-      "img075.tga",
-      "mask075.tga"
-    ],
-    [
-      "img076.tga",
-      "mask076.tga"
-    ],
-    [
-      "img077.tga",
-      "mask077.tga"
-    ],
-    [
-      "img078.tga",
-      "mask078.tga"
-    ],
-    [
-      "img079.tga",
-      "mask079.tga"
-    ],
-    [
-      "img080.tga",
-      "mask080.tga"
-    ],
-    [
-      "img081.tga",
-      "mask081.tga"
-    ],
-    [
-      "img082.tga",
-      "mask082.tga"
-    ],
-    [
-      "img083.tga",
-      "mask083.tga"
-    ],
-    [
-      "img084.tga",
-      "mask084.tga"
-    ],
-    [
-      "img085.tga",
-      "mask085.tga"
-    ],
-    [
-      "img086.tga",
-      "mask086.tga"
-    ],
-    [
-      "img087.tga",
-      "mask087.tga"
-    ],
-    [
-      "img088.tga",
-      "mask088.tga"
-    ],
-    [
-      "img089.tga",
-      "mask089.tga"
-    ],
-    [
-      "img090.tga",
-      "mask090.tga"
-    ],
-    [
-      "img091.tga",
-      "mask091.tga"
-    ],
-    [
-      "img092.tga",
-      "mask092.tga"
-    ],
-    [
-      "img093.tga",
-      "mask093.tga"
-    ],
-    [
-      "img094.tga",
-      "mask094.tga"
-    ],
-    [
-      "img095.tga",
-      "mask095.tga"
-    ],
-    [
-      "img096.tga",
-      "mask096.tga"
-    ],
-    [
-      "img097.tga",
-      "mask097.tga"
-    ],
-    [
-      "img098.tga",
-      "mask098.tga"
-    ],
-    [
-      "img099.tga",
-      "mask099.tga"
-    ]
+    {
+      "img": "img000.tga",
+      "mask": "mask000.tga"
+    },
+    {
+      "img": "img001.tga",
+      "mask": "mask001.tga"
+    },
+    {
+      "img": "img002.tga",
+      "mask": "mask002.tga"
+    },
+    {
+      "img": "img003.tga",
+      "mask": "mask003.tga"
+    },
+    {
+      "img": "img004.tga",
+      "mask": "mask004.tga"
+    },
+    {
+      "img": "img005.tga",
+      "mask": "mask005.tga"
+    },
+    {
+      "img": "img006.tga",
+      "mask": "mask006.tga"
+    },
+    {
+      "img": "img007.tga",
+      "mask": "mask007.tga"
+    },
+    {
+      "img": "img008.tga",
+      "mask": "mask008.tga"
+    },
+    {
+      "img": "img009.tga",
+      "mask": "mask009.tga"
+    },
+    {
+      "img": "img010.tga",
+      "mask": "mask010.tga"
+    },
+    {
+      "img": "img011.tga",
+      "mask": "mask011.tga"
+    },
+    {
+      "img": "img012.tga",
+      "mask": "mask012.tga"
+    },
+    {
+      "img": "img013.tga",
+      "mask": "mask013.tga"
+    },
+    {
+      "img": "img014.tga",
+      "mask": "mask014.tga"
+    },
+    {
+      "img": "img015.tga",
+      "mask": "mask015.tga"
+    },
+    {
+      "img": "img016.tga",
+      "mask": "mask016.tga"
+    },
+    {
+      "img": "img017.tga",
+      "mask": "mask017.tga"
+    },
+    {
+      "img": "img018.tga",
+      "mask": "mask018.tga"
+    },
+    {
+      "img": "img019.tga",
+      "mask": "mask019.tga"
+    },
+    {
+      "img": "img020.tga",
+      "mask": "mask020.tga"
+    },
+    {
+      "img": "img021.tga",
+      "mask": "mask021.tga"
+    },
+    {
+      "img": "img022.tga",
+      "mask": "mask022.tga"
+    },
+    {
+      "img": "img023.tga",
+      "mask": "mask023.tga"
+    },
+    {
+      "img": "img024.tga",
+      "mask": "mask024.tga"
+    },
+    {
+      "img": "img025.tga",
+      "mask": "mask025.tga"
+    },
+    {
+      "img": "img026.tga",
+      "mask": "mask026.tga"
+    },
+    {
+      "img": "img027.tga",
+      "mask": "mask027.tga"
+    },
+    {
+      "img": "img028.tga",
+      "mask": "mask028.tga"
+    },
+    {
+      "img": "img029.tga",
+      "mask": "mask029.tga"
+    },
+    {
+      "img": "img030.tga",
+      "mask": "mask030.tga"
+    },
+    {
+      "img": "img031.tga",
+      "mask": "mask031.tga"
+    },
+    {
+      "img": "img032.tga",
+      "mask": "mask032.tga"
+    },
+    {
+      "img": "img033.tga",
+      "mask": "mask033.tga"
+    },
+    {
+      "img": "img034.tga",
+      "mask": "mask034.tga"
+    },
+    {
+      "img": "img035.tga",
+      "mask": "mask035.tga"
+    },
+    {
+      "img": "img036.tga",
+      "mask": "mask036.tga"
+    },
+    {
+      "img": "img037.tga",
+      "mask": "mask037.tga"
+    },
+    {
+      "img": "img038.tga",
+      "mask": "mask038.tga"
+    },
+    {
+      "img": "img039.tga",
+      "mask": "mask039.tga"
+    },
+    {
+      "img": "img040.tga",
+      "mask": "mask040.tga"
+    },
+    {
+      "img": "img041.tga",
+      "mask": "mask041.tga"
+    },
+    {
+      "img": "img042.tga",
+      "mask": "mask042.tga"
+    },
+    {
+      "img": "img043.tga",
+      "mask": "mask043.tga"
+    },
+    {
+      "img": "img044.tga",
+      "mask": "mask044.tga"
+    },
+    {
+      "img": "img045.tga",
+      "mask": "mask045.tga"
+    },
+    {
+      "img": "img046.tga",
+      "mask": "mask046.tga"
+    },
+    {
+      "img": "img047.tga",
+      "mask": "mask047.tga"
+    },
+    {
+      "img": "img048.tga",
+      "mask": "mask048.tga"
+    },
+    {
+      "img": "img049.tga",
+      "mask": "mask049.tga"
+    },
+    {
+      "img": "img050.tga",
+      "mask": "mask050.tga"
+    },
+    {
+      "img": "img051.tga",
+      "mask": "mask051.tga"
+    },
+    {
+      "img": "img052.tga",
+      "mask": "mask052.tga"
+    },
+    {
+      "img": "img053.tga",
+      "mask": "mask053.tga"
+    },
+    {
+      "img": "img054.tga",
+      "mask": "mask054.tga"
+    },
+    {
+      "img": "img055.tga",
+      "mask": "mask055.tga"
+    },
+    {
+      "img": "img056.tga",
+      "mask": "mask056.tga"
+    },
+    {
+      "img": "img057.tga",
+      "mask": "mask057.tga"
+    },
+    {
+      "img": "img058.tga",
+      "mask": "mask058.tga"
+    },
+    {
+      "img": "img059.tga",
+      "mask": "mask059.tga"
+    },
+    {
+      "img": "img060.tga",
+      "mask": "mask060.tga"
+    },
+    {
+      "img": "img061.tga",
+      "mask": "mask061.tga"
+    },
+    {
+      "img": "img062.tga",
+      "mask": "mask062.tga"
+    },
+    {
+      "img": "img063.tga",
+      "mask": "mask063.tga"
+    },
+    {
+      "img": "img064.tga",
+      "mask": "mask064.tga"
+    },
+    {
+      "img": "img065.tga",
+      "mask": "mask065.tga"
+    },
+    {
+      "img": "img066.tga",
+      "mask": "mask066.tga"
+    },
+    {
+      "img": "img067.tga",
+      "mask": "mask067.tga"
+    },
+    {
+      "img": "img068.tga",
+      "mask": "mask068.tga"
+    },
+    {
+      "img": "img069.tga",
+      "mask": "mask069.tga"
+    },
+    {
+      "img": "img070.tga",
+      "mask": "mask070.tga"
+    },
+    {
+      "img": "img071.tga",
+      "mask": "mask071.tga"
+    },
+    {
+      "img": "img072.tga",
+      "mask": "mask072.tga"
+    },
+    {
+      "img": "img073.tga",
+      "mask": "mask073.tga"
+    },
+    {
+      "img": "img074.tga",
+      "mask": "mask074.tga"
+    },
+    {
+      "img": "img075.tga",
+      "mask": "mask075.tga"
+    },
+    {
+      "img": "img076.tga",
+      "mask": "mask076.tga"
+    },
+    {
+      "img": "img077.tga",
+      "mask": "mask077.tga"
+    },
+    {
+      "img": "img078.tga",
+      "mask": "mask078.tga"
+    },
+    {
+      "img": "img079.tga",
+      "mask": "mask079.tga"
+    },
+    {
+      "img": "img080.tga",
+      "mask": "mask080.tga"
+    },
+    {
+      "img": "img081.tga",
+      "mask": "mask081.tga"
+    },
+    {
+      "img": "img082.tga",
+      "mask": "mask082.tga"
+    },
+    {
+      "img": "img083.tga",
+      "mask": "mask083.tga"
+    },
+    {
+      "img": "img084.tga",
+      "mask": "mask084.tga"
+    },
+    {
+      "img": "img085.tga",
+      "mask": "mask085.tga"
+    },
+    {
+      "img": "img086.tga",
+      "mask": "mask086.tga"
+    },
+    {
+      "img": "img087.tga",
+      "mask": "mask087.tga"
+    },
+    {
+      "img": "img088.tga",
+      "mask": "mask088.tga"
+    },
+    {
+      "img": "img089.tga",
+      "mask": "mask089.tga"
+    },
+    {
+      "img": "img090.tga",
+      "mask": "mask090.tga"
+    },
+    {
+      "img": "img091.tga",
+      "mask": "mask091.tga"
+    },
+    {
+      "img": "img092.tga",
+      "mask": "mask092.tga"
+    },
+    {
+      "img": "img093.tga",
+      "mask": "mask093.tga"
+    },
+    {
+      "img": "img094.tga",
+      "mask": "mask094.tga"
+    },
+    {
+      "img": "img095.tga",
+      "mask": "mask095.tga"
+    },
+    {
+      "img": "img096.tga",
+      "mask": "mask096.tga"
+    },
+    {
+      "img": "img097.tga",
+      "mask": "mask097.tga"
+    },
+    {
+      "img": "img098.tga",
+      "mask": "mask098.tga"
+    },
+    {
+      "img": "img099.tga",
+      "mask": "mask099.tga"
+    },
+    {
+      "img": "img000.tga",
+      "mask": "mask000.tga"
+    },
+    {
+      "img": "img001.tga",
+      "mask": "mask001.tga"
+    },
+    {
+      "img": "img002.tga",
+      "mask": "mask002.tga"
+    },
+    {
+      "img": "img003.tga",
+      "mask": "mask003.tga"
+    },
+    {
+      "img": "img004.tga",
+      "mask": "mask004.tga"
+    },
+    {
+      "img": "img005.tga",
+      "mask": "mask005.tga"
+    },
+    {
+      "img": "img006.tga",
+      "mask": "mask006.tga"
+    },
+    {
+      "img": "img007.tga",
+      "mask": "mask007.tga"
+    },
+    {
+      "img": "img008.tga",
+      "mask": "mask008.tga"
+    },
+    {
+      "img": "img009.tga",
+      "mask": "mask009.tga"
+    },
+    {
+      "img": "img010.tga",
+      "mask": "mask010.tga"
+    },
+    {
+      "img": "img011.tga",
+      "mask": "mask011.tga"
+    },
+    {
+      "img": "img012.tga",
+      "mask": "mask012.tga"
+    },
+    {
+      "img": "img013.tga",
+      "mask": "mask013.tga"
+    },
+    {
+      "img": "img014.tga",
+      "mask": "mask014.tga"
+    },
+    {
+      "img": "img015.tga",
+      "mask": "mask015.tga"
+    },
+    {
+      "img": "img016.tga",
+      "mask": "mask016.tga"
+    },
+    {
+      "img": "img017.tga",
+      "mask": "mask017.tga"
+    },
+    {
+      "img": "img018.tga",
+      "mask": "mask018.tga"
+    },
+    {
+      "img": "img019.tga",
+      "mask": "mask019.tga"
+    },
+    {
+      "img": "img020.tga",
+      "mask": "mask020.tga"
+    },
+    {
+      "img": "img021.tga",
+      "mask": "mask021.tga"
+    },
+    {
+      "img": "img022.tga",
+      "mask": "mask022.tga"
+    },
+    {
+      "img": "img023.tga",
+      "mask": "mask023.tga"
+    },
+    {
+      "img": "img024.tga",
+      "mask": "mask024.tga"
+    },
+    {
+      "img": "img025.tga",
+      "mask": "mask025.tga"
+    },
+    {
+      "img": "img026.tga",
+      "mask": "mask026.tga"
+    },
+    {
+      "img": "img027.tga",
+      "mask": "mask027.tga"
+    },
+    {
+      "img": "img028.tga",
+      "mask": "mask028.tga"
+    },
+    {
+      "img": "img029.tga",
+      "mask": "mask029.tga"
+    },
+    {
+      "img": "img030.tga",
+      "mask": "mask030.tga"
+    },
+    {
+      "img": "img031.tga",
+      "mask": "mask031.tga"
+    },
+    {
+      "img": "img032.tga",
+      "mask": "mask032.tga"
+    },
+    {
+      "img": "img033.tga",
+      "mask": "mask033.tga"
+    },
+    {
+      "img": "img034.tga",
+      "mask": "mask034.tga"
+    },
+    {
+      "img": "img035.tga",
+      "mask": "mask035.tga"
+    },
+    {
+      "img": "img036.tga",
+      "mask": "mask036.tga"
+    },
+    {
+      "img": "img037.tga",
+      "mask": "mask037.tga"
+    },
+    {
+      "img": "img038.tga",
+      "mask": "mask038.tga"
+    },
+    {
+      "img": "img039.tga",
+      "mask": "mask039.tga"
+    },
+    {
+      "img": "img040.tga",
+      "mask": "mask040.tga"
+    },
+    {
+      "img": "img041.tga",
+      "mask": "mask041.tga"
+    },
+    {
+      "img": "img042.tga",
+      "mask": "mask042.tga"
+    },
+    {
+      "img": "img043.tga",
+      "mask": "mask043.tga"
+    },
+    {
+      "img": "img044.tga",
+      "mask": "mask044.tga"
+    },
+    {
+      "img": "img045.tga",
+      "mask": "mask045.tga"
+    },
+    {
+      "img": "img046.tga",
+      "mask": "mask046.tga"
+    },
+    {
+      "img": "img047.tga",
+      "mask": "mask047.tga"
+    },
+    {
+      "img": "img048.tga",
+      "mask": "mask048.tga"
+    },
+    {
+      "img": "img049.tga",
+      "mask": "mask049.tga"
+    },
+    {
+      "img": "img050.tga",
+      "mask": "mask050.tga"
+    },
+    {
+      "img": "img051.tga",
+      "mask": "mask051.tga"
+    },
+    {
+      "img": "img052.tga",
+      "mask": "mask052.tga"
+    },
+    {
+      "img": "img053.tga",
+      "mask": "mask053.tga"
+    },
+    {
+      "img": "img054.tga",
+      "mask": "mask054.tga"
+    },
+    {
+      "img": "img055.tga",
+      "mask": "mask055.tga"
+    },
+    {
+      "img": "img056.tga",
+      "mask": "mask056.tga"
+    },
+    {
+      "img": "img057.tga",
+      "mask": "mask057.tga"
+    },
+    {
+      "img": "img058.tga",
+      "mask": "mask058.tga"
+    },
+    {
+      "img": "img059.tga",
+      "mask": "mask059.tga"
+    },
+    {
+      "img": "img060.tga",
+      "mask": "mask060.tga"
+    },
+    {
+      "img": "img061.tga",
+      "mask": "mask061.tga"
+    },
+    {
+      "img": "img062.tga",
+      "mask": "mask062.tga"
+    },
+    {
+      "img": "img063.tga",
+      "mask": "mask063.tga"
+    },
+    {
+      "img": "img064.tga",
+      "mask": "mask064.tga"
+    },
+    {
+      "img": "img065.tga",
+      "mask": "mask065.tga"
+    },
+    {
+      "img": "img066.tga",
+      "mask": "mask066.tga"
+    },
+    {
+      "img": "img067.tga",
+      "mask": "mask067.tga"
+    },
+    {
+      "img": "img068.tga",
+      "mask": "mask068.tga"
+    },
+    {
+      "img": "img069.tga",
+      "mask": "mask069.tga"
+    },
+    {
+      "img": "img070.tga",
+      "mask": "mask070.tga"
+    },
+    {
+      "img": "img071.tga",
+      "mask": "mask071.tga"
+    },
+    {
+      "img": "img072.tga",
+      "mask": "mask072.tga"
+    },
+    {
+      "img": "img073.tga",
+      "mask": "mask073.tga"
+    },
+    {
+      "img": "img074.tga",
+      "mask": "mask074.tga"
+    },
+    {
+      "img": "img075.tga",
+      "mask": "mask075.tga"
+    },
+    {
+      "img": "img076.tga",
+      "mask": "mask076.tga"
+    },
+    {
+      "img": "img077.tga",
+      "mask": "mask077.tga"
+    },
+    {
+      "img": "img078.tga",
+      "mask": "mask078.tga"
+    },
+    {
+      "img": "img079.tga",
+      "mask": "mask079.tga"
+    },
+    {
+      "img": "img080.tga",
+      "mask": "mask080.tga"
+    },
+    {
+      "img": "img081.tga",
+      "mask": "mask081.tga"
+    },
+    {
+      "img": "img082.tga",
+      "mask": "mask082.tga"
+    },
+    {
+      "img": "img083.tga",
+      "mask": "mask083.tga"
+    },
+    {
+      "img": "img084.tga",
+      "mask": "mask084.tga"
+    },
+    {
+      "img": "img085.tga",
+      "mask": "mask085.tga"
+    },
+    {
+      "img": "img086.tga",
+      "mask": "mask086.tga"
+    },
+    {
+      "img": "img087.tga",
+      "mask": "mask087.tga"
+    },
+    {
+      "img": "img088.tga",
+      "mask": "mask088.tga"
+    },
+    {
+      "img": "img089.tga",
+      "mask": "mask089.tga"
+    },
+    {
+      "img": "img090.tga",
+      "mask": "mask090.tga"
+    },
+    {
+      "img": "img091.tga",
+      "mask": "mask091.tga"
+    },
+    {
+      "img": "img092.tga",
+      "mask": "mask092.tga"
+    },
+    {
+      "img": "img093.tga",
+      "mask": "mask093.tga"
+    },
+    {
+      "img": "img094.tga",
+      "mask": "mask094.tga"
+    },
+    {
+      "img": "img095.tga",
+      "mask": "mask095.tga"
+    },
+    {
+      "img": "img096.tga",
+      "mask": "mask096.tga"
+    },
+    {
+      "img": "img097.tga",
+      "mask": "mask097.tga"
+    },
+    {
+      "img": "img098.tga",
+      "mask": "mask098.tga"
+    },
+    {
+      "img": "img099.tga",
+      "mask": "mask099.tga"
+    },
+    {
+      "img": "img000.tga",
+      "mask": "mask000.tga"
+    },
+    {
+      "img": "img001.tga",
+      "mask": "mask001.tga"
+    },
+    {
+      "img": "img002.tga",
+      "mask": "mask002.tga"
+    },
+    {
+      "img": "img003.tga",
+      "mask": "mask003.tga"
+    },
+    {
+      "img": "img004.tga",
+      "mask": "mask004.tga"
+    },
+    {
+      "img": "img005.tga",
+      "mask": "mask005.tga"
+    },
+    {
+      "img": "img006.tga",
+      "mask": "mask006.tga"
+    },
+    {
+      "img": "img007.tga",
+      "mask": "mask007.tga"
+    },
+    {
+      "img": "img008.tga",
+      "mask": "mask008.tga"
+    },
+    {
+      "img": "img009.tga",
+      "mask": "mask009.tga"
+    },
+    {
+      "img": "img010.tga",
+      "mask": "mask010.tga"
+    },
+    {
+      "img": "img011.tga",
+      "mask": "mask011.tga"
+    },
+    {
+      "img": "img012.tga",
+      "mask": "mask012.tga"
+    },
+    {
+      "img": "img013.tga",
+      "mask": "mask013.tga"
+    },
+    {
+      "img": "img014.tga",
+      "mask": "mask014.tga"
+    },
+    {
+      "img": "img015.tga",
+      "mask": "mask015.tga"
+    },
+    {
+      "img": "img016.tga",
+      "mask": "mask016.tga"
+    },
+    {
+      "img": "img017.tga",
+      "mask": "mask017.tga"
+    },
+    {
+      "img": "img018.tga",
+      "mask": "mask018.tga"
+    },
+    {
+      "img": "img019.tga",
+      "mask": "mask019.tga"
+    },
+    {
+      "img": "img020.tga",
+      "mask": "mask020.tga"
+    },
+    {
+      "img": "img021.tga",
+      "mask": "mask021.tga"
+    },
+    {
+      "img": "img022.tga",
+      "mask": "mask022.tga"
+    },
+    {
+      "img": "img023.tga",
+      "mask": "mask023.tga"
+    },
+    {
+      "img": "img024.tga",
+      "mask": "mask024.tga"
+    },
+    {
+      "img": "img025.tga",
+      "mask": "mask025.tga"
+    },
+    {
+      "img": "img026.tga",
+      "mask": "mask026.tga"
+    },
+    {
+      "img": "img027.tga",
+      "mask": "mask027.tga"
+    },
+    {
+      "img": "img028.tga",
+      "mask": "mask028.tga"
+    },
+    {
+      "img": "img029.tga",
+      "mask": "mask029.tga"
+    },
+    {
+      "img": "img030.tga",
+      "mask": "mask030.tga"
+    },
+    {
+      "img": "img031.tga",
+      "mask": "mask031.tga"
+    },
+    {
+      "img": "img032.tga",
+      "mask": "mask032.tga"
+    },
+    {
+      "img": "img033.tga",
+      "mask": "mask033.tga"
+    },
+    {
+      "img": "img034.tga",
+      "mask": "mask034.tga"
+    },
+    {
+      "img": "img035.tga",
+      "mask": "mask035.tga"
+    },
+    {
+      "img": "img036.tga",
+      "mask": "mask036.tga"
+    },
+    {
+      "img": "img037.tga",
+      "mask": "mask037.tga"
+    },
+    {
+      "img": "img038.tga",
+      "mask": "mask038.tga"
+    },
+    {
+      "img": "img039.tga",
+      "mask": "mask039.tga"
+    },
+    {
+      "img": "img040.tga",
+      "mask": "mask040.tga"
+    },
+    {
+      "img": "img041.tga",
+      "mask": "mask041.tga"
+    },
+    {
+      "img": "img042.tga",
+      "mask": "mask042.tga"
+    },
+    {
+      "img": "img043.tga",
+      "mask": "mask043.tga"
+    },
+    {
+      "img": "img044.tga",
+      "mask": "mask044.tga"
+    },
+    {
+      "img": "img045.tga",
+      "mask": "mask045.tga"
+    },
+    {
+      "img": "img046.tga",
+      "mask": "mask046.tga"
+    },
+    {
+      "img": "img047.tga",
+      "mask": "mask047.tga"
+    },
+    {
+      "img": "img048.tga",
+      "mask": "mask048.tga"
+    },
+    {
+      "img": "img049.tga",
+      "mask": "mask049.tga"
+    },
+    {
+      "img": "img050.tga",
+      "mask": "mask050.tga"
+    },
+    {
+      "img": "img051.tga",
+      "mask": "mask051.tga"
+    },
+    {
+      "img": "img052.tga",
+      "mask": "mask052.tga"
+    },
+    {
+      "img": "img053.tga",
+      "mask": "mask053.tga"
+    },
+    {
+      "img": "img054.tga",
+      "mask": "mask054.tga"
+    },
+    {
+      "img": "img055.tga",
+      "mask": "mask055.tga"
+    },
+    {
+      "img": "img056.tga",
+      "mask": "mask056.tga"
+    },
+    {
+      "img": "img057.tga",
+      "mask": "mask057.tga"
+    },
+    {
+      "img": "img058.tga",
+      "mask": "mask058.tga"
+    },
+    {
+      "img": "img059.tga",
+      "mask": "mask059.tga"
+    },
+    {
+      "img": "img060.tga",
+      "mask": "mask060.tga"
+    },
+    {
+      "img": "img061.tga",
+      "mask": "mask061.tga"
+    },
+    {
+      "img": "img062.tga",
+      "mask": "mask062.tga"
+    },
+    {
+      "img": "img063.tga",
+      "mask": "mask063.tga"
+    },
+    {
+      "img": "img064.tga",
+      "mask": "mask064.tga"
+    },
+    {
+      "img": "img065.tga",
+      "mask": "mask065.tga"
+    },
+    {
+      "img": "img066.tga",
+      "mask": "mask066.tga"
+    },
+    {
+      "img": "img067.tga",
+      "mask": "mask067.tga"
+    },
+    {
+      "img": "img068.tga",
+      "mask": "mask068.tga"
+    },
+    {
+      "img": "img069.tga",
+      "mask": "mask069.tga"
+    },
+    {
+      "img": "img070.tga",
+      "mask": "mask070.tga"
+    },
+    {
+      "img": "img071.tga",
+      "mask": "mask071.tga"
+    },
+    {
+      "img": "img072.tga",
+      "mask": "mask072.tga"
+    },
+    {
+      "img": "img073.tga",
+      "mask": "mask073.tga"
+    },
+    {
+      "img": "img074.tga",
+      "mask": "mask074.tga"
+    },
+    {
+      "img": "img075.tga",
+      "mask": "mask075.tga"
+    },
+    {
+      "img": "img076.tga",
+      "mask": "mask076.tga"
+    },
+    {
+      "img": "img077.tga",
+      "mask": "mask077.tga"
+    },
+    {
+      "img": "img078.tga",
+      "mask": "mask078.tga"
+    },
+    {
+      "img": "img079.tga",
+      "mask": "mask079.tga"
+    },
+    {
+      "img": "img080.tga",
+      "mask": "mask080.tga"
+    },
+    {
+      "img": "img081.tga",
+      "mask": "mask081.tga"
+    },
+    {
+      "img": "img082.tga",
+      "mask": "mask082.tga"
+    },
+    {
+      "img": "img083.tga",
+      "mask": "mask083.tga"
+    },
+    {
+      "img": "img084.tga",
+      "mask": "mask084.tga"
+    },
+    {
+      "img": "img085.tga",
+      "mask": "mask085.tga"
+    },
+    {
+      "img": "img086.tga",
+      "mask": "mask086.tga"
+    },
+    {
+      "img": "img087.tga",
+      "mask": "mask087.tga"
+    },
+    {
+      "img": "img088.tga",
+      "mask": "mask088.tga"
+    },
+    {
+      "img": "img089.tga",
+      "mask": "mask089.tga"
+    },
+    {
+      "img": "img090.tga",
+      "mask": "mask090.tga"
+    },
+    {
+      "img": "img091.tga",
+      "mask": "mask091.tga"
+    },
+    {
+      "img": "img092.tga",
+      "mask": "mask092.tga"
+    },
+    {
+      "img": "img093.tga",
+      "mask": "mask093.tga"
+    },
+    {
+      "img": "img094.tga",
+      "mask": "mask094.tga"
+    },
+    {
+      "img": "img095.tga",
+      "mask": "mask095.tga"
+    },
+    {
+      "img": "img096.tga",
+      "mask": "mask096.tga"
+    },
+    {
+      "img": "img097.tga",
+      "mask": "mask097.tga"
+    },
+    {
+      "img": "img098.tga",
+      "mask": "mask098.tga"
+    },
+    {
+      "img": "img099.tga",
+      "mask": "mask099.tga"
+    },
+    {
+      "img": "img000.tga",
+      "mask": "mask000.tga"
+    },
+    {
+      "img": "img001.tga",
+      "mask": "mask001.tga"
+    },
+    {
+      "img": "img002.tga",
+      "mask": "mask002.tga"
+    },
+    {
+      "img": "img003.tga",
+      "mask": "mask003.tga"
+    },
+    {
+      "img": "img004.tga",
+      "mask": "mask004.tga"
+    },
+    {
+      "img": "img005.tga",
+      "mask": "mask005.tga"
+    },
+    {
+      "img": "img006.tga",
+      "mask": "mask006.tga"
+    },
+    {
+      "img": "img007.tga",
+      "mask": "mask007.tga"
+    },
+    {
+      "img": "img008.tga",
+      "mask": "mask008.tga"
+    },
+    {
+      "img": "img009.tga",
+      "mask": "mask009.tga"
+    },
+    {
+      "img": "img010.tga",
+      "mask": "mask010.tga"
+    },
+    {
+      "img": "img011.tga",
+      "mask": "mask011.tga"
+    },
+    {
+      "img": "img012.tga",
+      "mask": "mask012.tga"
+    },
+    {
+      "img": "img013.tga",
+      "mask": "mask013.tga"
+    },
+    {
+      "img": "img014.tga",
+      "mask": "mask014.tga"
+    },
+    {
+      "img": "img015.tga",
+      "mask": "mask015.tga"
+    },
+    {
+      "img": "img016.tga",
+      "mask": "mask016.tga"
+    },
+    {
+      "img": "img017.tga",
+      "mask": "mask017.tga"
+    },
+    {
+      "img": "img018.tga",
+      "mask": "mask018.tga"
+    },
+    {
+      "img": "img019.tga",
+      "mask": "mask019.tga"
+    },
+    {
+      "img": "img020.tga",
+      "mask": "mask020.tga"
+    },
+    {
+      "img": "img021.tga",
+      "mask": "mask021.tga"
+    },
+    {
+      "img": "img022.tga",
+      "mask": "mask022.tga"
+    },
+    {
+      "img": "img023.tga",
+      "mask": "mask023.tga"
+    },
+    {
+      "img": "img024.tga",
+      "mask": "mask024.tga"
+    },
+    {
+      "img": "img025.tga",
+      "mask": "mask025.tga"
+    },
+    {
+      "img": "img026.tga",
+      "mask": "mask026.tga"
+    },
+    {
+      "img": "img027.tga",
+      "mask": "mask027.tga"
+    },
+    {
+      "img": "img028.tga",
+      "mask": "mask028.tga"
+    },
+    {
+      "img": "img029.tga",
+      "mask": "mask029.tga"
+    },
+    {
+      "img": "img030.tga",
+      "mask": "mask030.tga"
+    },
+    {
+      "img": "img031.tga",
+      "mask": "mask031.tga"
+    },
+    {
+      "img": "img032.tga",
+      "mask": "mask032.tga"
+    },
+    {
+      "img": "img033.tga",
+      "mask": "mask033.tga"
+    },
+    {
+      "img": "img034.tga",
+      "mask": "mask034.tga"
+    },
+    {
+      "img": "img035.tga",
+      "mask": "mask035.tga"
+    },
+    {
+      "img": "img036.tga",
+      "mask": "mask036.tga"
+    },
+    {
+      "img": "img037.tga",
+      "mask": "mask037.tga"
+    },
+    {
+      "img": "img038.tga",
+      "mask": "mask038.tga"
+    },
+    {
+      "img": "img039.tga",
+      "mask": "mask039.tga"
+    },
+    {
+      "img": "img040.tga",
+      "mask": "mask040.tga"
+    },
+    {
+      "img": "img041.tga",
+      "mask": "mask041.tga"
+    },
+    {
+      "img": "img042.tga",
+      "mask": "mask042.tga"
+    },
+    {
+      "img": "img043.tga",
+      "mask": "mask043.tga"
+    },
+    {
+      "img": "img044.tga",
+      "mask": "mask044.tga"
+    },
+    {
+      "img": "img045.tga",
+      "mask": "mask045.tga"
+    },
+    {
+      "img": "img046.tga",
+      "mask": "mask046.tga"
+    },
+    {
+      "img": "img047.tga",
+      "mask": "mask047.tga"
+    },
+    {
+      "img": "img048.tga",
+      "mask": "mask048.tga"
+    },
+    {
+      "img": "img049.tga",
+      "mask": "mask049.tga"
+    },
+    {
+      "img": "img050.tga",
+      "mask": "mask050.tga"
+    },
+    {
+      "img": "img051.tga",
+      "mask": "mask051.tga"
+    },
+    {
+      "img": "img052.tga",
+      "mask": "mask052.tga"
+    },
+    {
+      "img": "img053.tga",
+      "mask": "mask053.tga"
+    },
+    {
+      "img": "img054.tga",
+      "mask": "mask054.tga"
+    },
+    {
+      "img": "img055.tga",
+      "mask": "mask055.tga"
+    },
+    {
+      "img": "img056.tga",
+      "mask": "mask056.tga"
+    },
+    {
+      "img": "img057.tga",
+      "mask": "mask057.tga"
+    },
+    {
+      "img": "img058.tga",
+      "mask": "mask058.tga"
+    },
+    {
+      "img": "img059.tga",
+      "mask": "mask059.tga"
+    },
+    {
+      "img": "img060.tga",
+      "mask": "mask060.tga"
+    },
+    {
+      "img": "img061.tga",
+      "mask": "mask061.tga"
+    },
+    {
+      "img": "img062.tga",
+      "mask": "mask062.tga"
+    },
+    {
+      "img": "img063.tga",
+      "mask": "mask063.tga"
+    },
+    {
+      "img": "img064.tga",
+      "mask": "mask064.tga"
+    },
+    {
+      "img": "img065.tga",
+      "mask": "mask065.tga"
+    },
+    {
+      "img": "img066.tga",
+      "mask": "mask066.tga"
+    },
+    {
+      "img": "img067.tga",
+      "mask": "mask067.tga"
+    },
+    {
+      "img": "img068.tga",
+      "mask": "mask068.tga"
+    },
+    {
+      "img": "img069.tga",
+      "mask": "mask069.tga"
+    },
+    {
+      "img": "img070.tga",
+      "mask": "mask070.tga"
+    },
+    {
+      "img": "img071.tga",
+      "mask": "mask071.tga"
+    },
+    {
+      "img": "img072.tga",
+      "mask": "mask072.tga"
+    },
+    {
+      "img": "img073.tga",
+      "mask": "mask073.tga"
+    },
+    {
+      "img": "img074.tga",
+      "mask": "mask074.tga"
+    },
+    {
+      "img": "img075.tga",
+      "mask": "mask075.tga"
+    },
+    {
+      "img": "img076.tga",
+      "mask": "mask076.tga"
+    },
+    {
+      "img": "img077.tga",
+      "mask": "mask077.tga"
+    },
+    {
+      "img": "img078.tga",
+      "mask": "mask078.tga"
+    },
+    {
+      "img": "img079.tga",
+      "mask": "mask079.tga"
+    },
+    {
+      "img": "img080.tga",
+      "mask": "mask080.tga"
+    },
+    {
+      "img": "img081.tga",
+      "mask": "mask081.tga"
+    },
+    {
+      "img": "img082.tga",
+      "mask": "mask082.tga"
+    },
+    {
+      "img": "img083.tga",
+      "mask": "mask083.tga"
+    },
+    {
+      "img": "img084.tga",
+      "mask": "mask084.tga"
+    },
+    {
+      "img": "img085.tga",
+      "mask": "mask085.tga"
+    },
+    {
+      "img": "img086.tga",
+      "mask": "mask086.tga"
+    },
+    {
+      "img": "img087.tga",
+      "mask": "mask087.tga"
+    },
+    {
+      "img": "img088.tga",
+      "mask": "mask088.tga"
+    },
+    {
+      "img": "img089.tga",
+      "mask": "mask089.tga"
+    },
+    {
+      "img": "img090.tga",
+      "mask": "mask090.tga"
+    },
+    {
+      "img": "img091.tga",
+      "mask": "mask091.tga"
+    },
+    {
+      "img": "img092.tga",
+      "mask": "mask092.tga"
+    },
+    {
+      "img": "img093.tga",
+      "mask": "mask093.tga"
+    },
+    {
+      "img": "img094.tga",
+      "mask": "mask094.tga"
+    },
+    {
+      "img": "img095.tga",
+      "mask": "mask095.tga"
+    },
+    {
+      "img": "img096.tga",
+      "mask": "mask096.tga"
+    },
+    {
+      "img": "img097.tga",
+      "mask": "mask097.tga"
+    },
+    {
+      "img": "img098.tga",
+      "mask": "mask098.tga"
+    },
+    {
+      "img": "img099.tga",
+      "mask": "mask099.tga"
+    },
+    {
+      "img": "img000.tga",
+      "mask": "mask000.tga"
+    },
+    {
+      "img": "img001.tga",
+      "mask": "mask001.tga"
+    },
+    {
+      "img": "img002.tga",
+      "mask": "mask002.tga"
+    },
+    {
+      "img": "img003.tga",
+      "mask": "mask003.tga"
+    },
+    {
+      "img": "img004.tga",
+      "mask": "mask004.tga"
+    },
+    {
+      "img": "img005.tga",
+      "mask": "mask005.tga"
+    },
+    {
+      "img": "img006.tga",
+      "mask": "mask006.tga"
+    },
+    {
+      "img": "img007.tga",
+      "mask": "mask007.tga"
+    },
+    {
+      "img": "img008.tga",
+      "mask": "mask008.tga"
+    },
+    {
+      "img": "img009.tga",
+      "mask": "mask009.tga"
+    },
+    {
+      "img": "img010.tga",
+      "mask": "mask010.tga"
+    },
+    {
+      "img": "img011.tga",
+      "mask": "mask011.tga"
+    },
+    {
+      "img": "img012.tga",
+      "mask": "mask012.tga"
+    },
+    {
+      "img": "img013.tga",
+      "mask": "mask013.tga"
+    },
+    {
+      "img": "img014.tga",
+      "mask": "mask014.tga"
+    },
+    {
+      "img": "img015.tga",
+      "mask": "mask015.tga"
+    },
+    {
+      "img": "img016.tga",
+      "mask": "mask016.tga"
+    },
+    {
+      "img": "img017.tga",
+      "mask": "mask017.tga"
+    },
+    {
+      "img": "img018.tga",
+      "mask": "mask018.tga"
+    },
+    {
+      "img": "img019.tga",
+      "mask": "mask019.tga"
+    },
+    {
+      "img": "img020.tga",
+      "mask": "mask020.tga"
+    },
+    {
+      "img": "img021.tga",
+      "mask": "mask021.tga"
+    },
+    {
+      "img": "img022.tga",
+      "mask": "mask022.tga"
+    },
+    {
+      "img": "img023.tga",
+      "mask": "mask023.tga"
+    },
+    {
+      "img": "img024.tga",
+      "mask": "mask024.tga"
+    },
+    {
+      "img": "img025.tga",
+      "mask": "mask025.tga"
+    },
+    {
+      "img": "img026.tga",
+      "mask": "mask026.tga"
+    },
+    {
+      "img": "img027.tga",
+      "mask": "mask027.tga"
+    },
+    {
+      "img": "img028.tga",
+      "mask": "mask028.tga"
+    },
+    {
+      "img": "img029.tga",
+      "mask": "mask029.tga"
+    },
+    {
+      "img": "img030.tga",
+      "mask": "mask030.tga"
+    },
+    {
+      "img": "img031.tga",
+      "mask": "mask031.tga"
+    },
+    {
+      "img": "img032.tga",
+      "mask": "mask032.tga"
+    },
+    {
+      "img": "img033.tga",
+      "mask": "mask033.tga"
+    },
+    {
+      "img": "img034.tga",
+      "mask": "mask034.tga"
+    },
+    {
+      "img": "img035.tga",
+      "mask": "mask035.tga"
+    },
+    {
+      "img": "img036.tga",
+      "mask": "mask036.tga"
+    },
+    {
+      "img": "img037.tga",
+      "mask": "mask037.tga"
+    },
+    {
+      "img": "img038.tga",
+      "mask": "mask038.tga"
+    },
+    {
+      "img": "img039.tga",
+      "mask": "mask039.tga"
+    },
+    {
+      "img": "img040.tga",
+      "mask": "mask040.tga"
+    },
+    {
+      "img": "img041.tga",
+      "mask": "mask041.tga"
+    },
+    {
+      "img": "img042.tga",
+      "mask": "mask042.tga"
+    },
+    {
+      "img": "img043.tga",
+      "mask": "mask043.tga"
+    },
+    {
+      "img": "img044.tga",
+      "mask": "mask044.tga"
+    },
+    {
+      "img": "img045.tga",
+      "mask": "mask045.tga"
+    },
+    {
+      "img": "img046.tga",
+      "mask": "mask046.tga"
+    },
+    {
+      "img": "img047.tga",
+      "mask": "mask047.tga"
+    },
+    {
+      "img": "img048.tga",
+      "mask": "mask048.tga"
+    },
+    {
+      "img": "img049.tga",
+      "mask": "mask049.tga"
+    },
+    {
+      "img": "img050.tga",
+      "mask": "mask050.tga"
+    },
+    {
+      "img": "img051.tga",
+      "mask": "mask051.tga"
+    },
+    {
+      "img": "img052.tga",
+      "mask": "mask052.tga"
+    },
+    {
+      "img": "img053.tga",
+      "mask": "mask053.tga"
+    },
+    {
+      "img": "img054.tga",
+      "mask": "mask054.tga"
+    },
+    {
+      "img": "img055.tga",
+      "mask": "mask055.tga"
+    },
+    {
+      "img": "img056.tga",
+      "mask": "mask056.tga"
+    },
+    {
+      "img": "img057.tga",
+      "mask": "mask057.tga"
+    },
+    {
+      "img": "img058.tga",
+      "mask": "mask058.tga"
+    },
+    {
+      "img": "img059.tga",
+      "mask": "mask059.tga"
+    },
+    {
+      "img": "img060.tga",
+      "mask": "mask060.tga"
+    },
+    {
+      "img": "img061.tga",
+      "mask": "mask061.tga"
+    },
+    {
+      "img": "img062.tga",
+      "mask": "mask062.tga"
+    },
+    {
+      "img": "img063.tga",
+      "mask": "mask063.tga"
+    },
+    {
+      "img": "img064.tga",
+      "mask": "mask064.tga"
+    },
+    {
+      "img": "img065.tga",
+      "mask": "mask065.tga"
+    },
+    {
+      "img": "img066.tga",
+      "mask": "mask066.tga"
+    },
+    {
+      "img": "img067.tga",
+      "mask": "mask067.tga"
+    },
+    {
+      "img": "img068.tga",
+      "mask": "mask068.tga"
+    },
+    {
+      "img": "img069.tga",
+      "mask": "mask069.tga"
+    },
+    {
+      "img": "img070.tga",
+      "mask": "mask070.tga"
+    },
+    {
+      "img": "img071.tga",
+      "mask": "mask071.tga"
+    },
+    {
+      "img": "img072.tga",
+      "mask": "mask072.tga"
+    },
+    {
+      "img": "img073.tga",
+      "mask": "mask073.tga"
+    },
+    {
+      "img": "img074.tga",
+      "mask": "mask074.tga"
+    },
+    {
+      "img": "img075.tga",
+      "mask": "mask075.tga"
+    },
+    {
+      "img": "img076.tga",
+      "mask": "mask076.tga"
+    },
+    {
+      "img": "img077.tga",
+      "mask": "mask077.tga"
+    },
+    {
+      "img": "img078.tga",
+      "mask": "mask078.tga"
+    },
+    {
+      "img": "img079.tga",
+      "mask": "mask079.tga"
+    },
+    {
+      "img": "img080.tga",
+      "mask": "mask080.tga"
+    },
+    {
+      "img": "img081.tga",
+      "mask": "mask081.tga"
+    },
+    {
+      "img": "img082.tga",
+      "mask": "mask082.tga"
+    },
+    {
+      "img": "img083.tga",
+      "mask": "mask083.tga"
+    },
+    {
+      "img": "img084.tga",
+      "mask": "mask084.tga"
+    },
+    {
+      "img": "img085.tga",
+      "mask": "mask085.tga"
+    },
+    {
+      "img": "img086.tga",
+      "mask": "mask086.tga"
+    },
+    {
+      "img": "img087.tga",
+      "mask": "mask087.tga"
+    },
+    {
+      "img": "img088.tga",
+      "mask": "mask088.tga"
+    },
+    {
+      "img": "img089.tga",
+      "mask": "mask089.tga"
+    },
+    {
+      "img": "img090.tga",
+      "mask": "mask090.tga"
+    },
+    {
+      "img": "img091.tga",
+      "mask": "mask091.tga"
+    },
+    {
+      "img": "img092.tga",
+      "mask": "mask092.tga"
+    },
+    {
+      "img": "img093.tga",
+      "mask": "mask093.tga"
+    },
+    {
+      "img": "img094.tga",
+      "mask": "mask094.tga"
+    },
+    {
+      "img": "img095.tga",
+      "mask": "mask095.tga"
+    },
+    {
+      "img": "img096.tga",
+      "mask": "mask096.tga"
+    },
+    {
+      "img": "img097.tga",
+      "mask": "mask097.tga"
+    },
+    {
+      "img": "img098.tga",
+      "mask": "mask098.tga"
+    },
+    {
+      "img": "img099.tga",
+      "mask": "mask099.tga"
+    },
+    {
+      "img": "img000.tga",
+      "mask": "mask000.tga"
+    },
+    {
+      "img": "img001.tga",
+      "mask": "mask001.tga"
+    },
+    {
+      "img": "img002.tga",
+      "mask": "mask002.tga"
+    },
+    {
+      "img": "img003.tga",
+      "mask": "mask003.tga"
+    },
+    {
+      "img": "img004.tga",
+      "mask": "mask004.tga"
+    },
+    {
+      "img": "img005.tga",
+      "mask": "mask005.tga"
+    },
+    {
+      "img": "img006.tga",
+      "mask": "mask006.tga"
+    },
+    {
+      "img": "img007.tga",
+      "mask": "mask007.tga"
+    },
+    {
+      "img": "img008.tga",
+      "mask": "mask008.tga"
+    },
+    {
+      "img": "img009.tga",
+      "mask": "mask009.tga"
+    },
+    {
+      "img": "img010.tga",
+      "mask": "mask010.tga"
+    },
+    {
+      "img": "img011.tga",
+      "mask": "mask011.tga"
+    },
+    {
+      "img": "img012.tga",
+      "mask": "mask012.tga"
+    },
+    {
+      "img": "img013.tga",
+      "mask": "mask013.tga"
+    },
+    {
+      "img": "img014.tga",
+      "mask": "mask014.tga"
+    },
+    {
+      "img": "img015.tga",
+      "mask": "mask015.tga"
+    },
+    {
+      "img": "img016.tga",
+      "mask": "mask016.tga"
+    },
+    {
+      "img": "img017.tga",
+      "mask": "mask017.tga"
+    },
+    {
+      "img": "img018.tga",
+      "mask": "mask018.tga"
+    },
+    {
+      "img": "img019.tga",
+      "mask": "mask019.tga"
+    },
+    {
+      "img": "img020.tga",
+      "mask": "mask020.tga"
+    },
+    {
+      "img": "img021.tga",
+      "mask": "mask021.tga"
+    },
+    {
+      "img": "img022.tga",
+      "mask": "mask022.tga"
+    },
+    {
+      "img": "img023.tga",
+      "mask": "mask023.tga"
+    },
+    {
+      "img": "img024.tga",
+      "mask": "mask024.tga"
+    },
+    {
+      "img": "img025.tga",
+      "mask": "mask025.tga"
+    },
+    {
+      "img": "img026.tga",
+      "mask": "mask026.tga"
+    },
+    {
+      "img": "img027.tga",
+      "mask": "mask027.tga"
+    },
+    {
+      "img": "img028.tga",
+      "mask": "mask028.tga"
+    },
+    {
+      "img": "img029.tga",
+      "mask": "mask029.tga"
+    },
+    {
+      "img": "img030.tga",
+      "mask": "mask030.tga"
+    },
+    {
+      "img": "img031.tga",
+      "mask": "mask031.tga"
+    },
+    {
+      "img": "img032.tga",
+      "mask": "mask032.tga"
+    },
+    {
+      "img": "img033.tga",
+      "mask": "mask033.tga"
+    },
+    {
+      "img": "img034.tga",
+      "mask": "mask034.tga"
+    },
+    {
+      "img": "img035.tga",
+      "mask": "mask035.tga"
+    },
+    {
+      "img": "img036.tga",
+      "mask": "mask036.tga"
+    },
+    {
+      "img": "img037.tga",
+      "mask": "mask037.tga"
+    },
+    {
+      "img": "img038.tga",
+      "mask": "mask038.tga"
+    },
+    {
+      "img": "img039.tga",
+      "mask": "mask039.tga"
+    },
+    {
+      "img": "img040.tga",
+      "mask": "mask040.tga"
+    },
+    {
+      "img": "img041.tga",
+      "mask": "mask041.tga"
+    },
+    {
+      "img": "img042.tga",
+      "mask": "mask042.tga"
+    },
+    {
+      "img": "img043.tga",
+      "mask": "mask043.tga"
+    },
+    {
+      "img": "img044.tga",
+      "mask": "mask044.tga"
+    },
+    {
+      "img": "img045.tga",
+      "mask": "mask045.tga"
+    },
+    {
+      "img": "img046.tga",
+      "mask": "mask046.tga"
+    },
+    {
+      "img": "img047.tga",
+      "mask": "mask047.tga"
+    },
+    {
+      "img": "img048.tga",
+      "mask": "mask048.tga"
+    },
+    {
+      "img": "img049.tga",
+      "mask": "mask049.tga"
+    },
+    {
+      "img": "img050.tga",
+      "mask": "mask050.tga"
+    },
+    {
+      "img": "img051.tga",
+      "mask": "mask051.tga"
+    },
+    {
+      "img": "img052.tga",
+      "mask": "mask052.tga"
+    },
+    {
+      "img": "img053.tga",
+      "mask": "mask053.tga"
+    },
+    {
+      "img": "img054.tga",
+      "mask": "mask054.tga"
+    },
+    {
+      "img": "img055.tga",
+      "mask": "mask055.tga"
+    },
+    {
+      "img": "img056.tga",
+      "mask": "mask056.tga"
+    },
+    {
+      "img": "img057.tga",
+      "mask": "mask057.tga"
+    },
+    {
+      "img": "img058.tga",
+      "mask": "mask058.tga"
+    },
+    {
+      "img": "img059.tga",
+      "mask": "mask059.tga"
+    },
+    {
+      "img": "img060.tga",
+      "mask": "mask060.tga"
+    },
+    {
+      "img": "img061.tga",
+      "mask": "mask061.tga"
+    },
+    {
+      "img": "img062.tga",
+      "mask": "mask062.tga"
+    },
+    {
+      "img": "img063.tga",
+      "mask": "mask063.tga"
+    },
+    {
+      "img": "img064.tga",
+      "mask": "mask064.tga"
+    },
+    {
+      "img": "img065.tga",
+      "mask": "mask065.tga"
+    },
+    {
+      "img": "img066.tga",
+      "mask": "mask066.tga"
+    },
+    {
+      "img": "img067.tga",
+      "mask": "mask067.tga"
+    },
+    {
+      "img": "img068.tga",
+      "mask": "mask068.tga"
+    },
+    {
+      "img": "img069.tga",
+      "mask": "mask069.tga"
+    },
+    {
+      "img": "img070.tga",
+      "mask": "mask070.tga"
+    },
+    {
+      "img": "img071.tga",
+      "mask": "mask071.tga"
+    },
+    {
+      "img": "img072.tga",
+      "mask": "mask072.tga"
+    },
+    {
+      "img": "img073.tga",
+      "mask": "mask073.tga"
+    },
+    {
+      "img": "img074.tga",
+      "mask": "mask074.tga"
+    },
+    {
+      "img": "img075.tga",
+      "mask": "mask075.tga"
+    },
+    {
+      "img": "img076.tga",
+      "mask": "mask076.tga"
+    },
+    {
+      "img": "img077.tga",
+      "mask": "mask077.tga"
+    },
+    {
+      "img": "img078.tga",
+      "mask": "mask078.tga"
+    },
+    {
+      "img": "img079.tga",
+      "mask": "mask079.tga"
+    },
+    {
+      "img": "img080.tga",
+      "mask": "mask080.tga"
+    },
+    {
+      "img": "img081.tga",
+      "mask": "mask081.tga"
+    },
+    {
+      "img": "img082.tga",
+      "mask": "mask082.tga"
+    },
+    {
+      "img": "img083.tga",
+      "mask": "mask083.tga"
+    },
+    {
+      "img": "img084.tga",
+      "mask": "mask084.tga"
+    },
+    {
+      "img": "img085.tga",
+      "mask": "mask085.tga"
+    },
+    {
+      "img": "img086.tga",
+      "mask": "mask086.tga"
+    },
+    {
+      "img": "img087.tga",
+      "mask": "mask087.tga"
+    },
+    {
+      "img": "img088.tga",
+      "mask": "mask088.tga"
+    },
+    {
+      "img": "img089.tga",
+      "mask": "mask089.tga"
+    },
+    {
+      "img": "img090.tga",
+      "mask": "mask090.tga"
+    },
+    {
+      "img": "img091.tga",
+      "mask": "mask091.tga"
+    },
+    {
+      "img": "img092.tga",
+      "mask": "mask092.tga"
+    },
+    {
+      "img": "img093.tga",
+      "mask": "mask093.tga"
+    },
+    {
+      "img": "img094.tga",
+      "mask": "mask094.tga"
+    },
+    {
+      "img": "img095.tga",
+      "mask": "mask095.tga"
+    },
+    {
+      "img": "img096.tga",
+      "mask": "mask096.tga"
+    },
+    {
+      "img": "img097.tga",
+      "mask": "mask097.tga"
+    },
+    {
+      "img": "img098.tga",
+      "mask": "mask098.tga"
+    },
+    {
+      "img": "img099.tga",
+      "mask": "mask099.tga"
+    }
   ],
   "nbImg": "100"
 }

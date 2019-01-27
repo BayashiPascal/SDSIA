@@ -2,4 +2,9 @@
 [-simul] OK
 Generation OK
 [-force] OK
-UnitTest succeeded
+UnitTest of generateDataSet.py succeeded
+UnitTestPython OK
+UnitTestSDSIACreateFree OK
+UnitTestSDSIAGet OK
+UnitTestSDSIASplitUnsplitShuffle OK
+UnitTestSDSIAGetSample OK

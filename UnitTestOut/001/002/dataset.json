@@ -1,5 +1,5 @@
 {
-  "dataSet": "dataset-002-001",
+  "dataSet": "dataset-001-002",
   "dataSetType": "0",
   "desc": "unitTest",
   "dim": [
@@ -8,18 +8,6 @@
   ],
   "format": "tga",
   "images": [
-    {
-      "img": "img000.tga",
-      "mask": "mask000.tga"
-    },
-    {
-      "img": "img001.tga",
-      "mask": "mask001.tga"
-    },
-    {
-      "img": "img002.tga",
-      "mask": "mask002.tga"
-    },
     {
       "img": "img000.tga",
       "mask": "mask000.tga"

@@ -3,8 +3,8 @@
   "desc": "unitTest",
   "dim": [
     "10",
-    "10"
+    "20"
   ],
   "format": "tga",
-  "nbImg": "2"
+  "nbImg": "3"
 }
