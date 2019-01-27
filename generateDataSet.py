@@ -611,39 +611,57 @@ class DataSetGenerator:
       check = [
         '\n', 
         ' === Generate data set for\n', 
-        '  /home/bayashi/GitHub/SDSIA/UnitTestIn/dataset-001-001.pov\n', 
+        '  ' + 
+        os.path.join(BASE_DIR, "UnitTestIn", "dataset-001-001.pov") + 
+        '\n', 
         'to\n', 
-        '  /home/bayashi/GitHub/SDSIA/UnitTestOut/001/001\n', 
+        '  ' + os.path.join(BASE_DIR, "UnitTestOut", "001", "001") + 
+        '\n', 
         '\n', 
         '\n', 
         'Generation of \n', 
-        '  /home/bayashi/GitHub/SDSIA/UnitTestOut/001/001\n', 
+        '  ' + os.path.join(BASE_DIR, "UnitTestOut", "001", "001") + 
+        '\n', 
         'completed.\n', 
         '\n', 
         ' === Generate data set for\n', 
-        '  /home/bayashi/GitHub/SDSIA/UnitTestIn/dataset-001-002.pov\n', 
+        '  ' + 
+        os.path.join(BASE_DIR, "UnitTestIn", "dataset-001-002.pov") + 
+        '\n', 
         'to\n', 
-        '  /home/bayashi/GitHub/SDSIA/UnitTestOut/001/002\n', 
+        '  ' + os.path.join(BASE_DIR, "UnitTestOut", "001", "002") + 
+        '\n', 
         '\n', 
         '\n', 
         'Generation of \n', 
-        '  /home/bayashi/GitHub/SDSIA/UnitTestOut/001/002\n', 
+        '  ' + os.path.join(BASE_DIR, "UnitTestOut", "001", "002") + 
+        '\n', 
         'completed.\n', 
         '\n', 
         ' === Generate data set for\n', 
-        '  /home/bayashi/GitHub/SDSIA/UnitTestIn/dataset-002-001.pov\n', 
+        '  ' + 
+        os.path.join(BASE_DIR, "UnitTestIn", "dataset-002-001.pov") + 
+        '\n', 
         'to\n', 
-        '  /home/bayashi/GitHub/SDSIA/UnitTestOut/002/001\n', 
+        '  ' + os.path.join(BASE_DIR, "UnitTestOut", "002", "001") + 
+        '\n', 
         '\n', 
         '\n', 
         'Generation of \n', 
-        '  /home/bayashi/GitHub/SDSIA/UnitTestOut/002/001\n', 
+        '  ' + os.path.join(BASE_DIR, "UnitTestOut", "002", "001") + 
+        '\n', 
         'completed.\n', 
         '\n', 
         'The following data sets were generated successfully:\n', 
-        '  /home/bayashi/GitHub/SDSIA/UnitTestIn/dataset-001-001.pov\n', 
-        '  /home/bayashi/GitHub/SDSIA/UnitTestIn/dataset-001-002.pov\n', 
-        '  /home/bayashi/GitHub/SDSIA/UnitTestIn/dataset-002-001.pov\n', 
+        '  ' + 
+        os.path.join(BASE_DIR, "UnitTestIn", "dataset-001-001.pov") + 
+        '\n', 
+        '  ' + 
+        os.path.join(BASE_DIR, "UnitTestIn", "dataset-001-002.pov") + 
+        '\n', 
+        '  ' + 
+        os.path.join(BASE_DIR, "UnitTestIn", "dataset-002-001.pov") + 
+        '\n', 
         '\n']
       with open ("out.txt", "r") as fp:
         data = fp.readlines()
@@ -666,55 +684,110 @@ class DataSetGenerator:
       check = [
         '\n', 
         ' === Generate data set for\n', 
-        '  /home/bayashi/GitHub/SDSIA/UnitTestIn/dataset-001-001.pov\n', 
-        'to\n', 
-        '  /home/bayashi/GitHub/SDSIA/UnitTestOut/001/001\n', 
+        '  ' + 
+        os.path.join(BASE_DIR, "UnitTestIn", "dataset-001-001.pov") + 
         '\n', 
-        '000/003 Rendering image /home/bayashi/GitHub/SDSIA/UnitTestOut/001/001/img000.tga ...\n', 
-        '        Rendering mask /home/bayashi/GitHub/SDSIA/UnitTestOut/001/001/mask000.tga ...\n', 
-        '001/003 Rendering image /home/bayashi/GitHub/SDSIA/UnitTestOut/001/001/img001.tga ...\n', 
-        '        Rendering mask /home/bayashi/GitHub/SDSIA/UnitTestOut/001/001/mask001.tga ...\n', 
-        '002/003 Rendering image /home/bayashi/GitHub/SDSIA/UnitTestOut/001/001/img002.tga ...\n', 
-        '        Rendering mask /home/bayashi/GitHub/SDSIA/UnitTestOut/001/001/mask002.tga ...\n', 
+        'to\n', 
+        '  ' + 
+        os.path.join(BASE_DIR, "UnitTestOut", "001", "001") + '\n', 
+        '\n', 
+        '000/003 Rendering image ' + 
+        os.path.join(BASE_DIR, "UnitTestOut", "001", "001", "") + 
+        'img000.tga ...\n', 
+        '        Rendering mask ' + 
+        os.path.join(BASE_DIR, "UnitTestOut", "001", "001", "") + 
+        'mask000.tga ...\n', 
+        '001/003 Rendering image ' + 
+        os.path.join(BASE_DIR, "UnitTestOut", "001", "001", "") + 
+        'img001.tga ...\n', 
+        '        Rendering mask ' + 
+        os.path.join(BASE_DIR, "UnitTestOut", "001", "001", "") + 
+        'mask001.tga ...\n', 
+        '002/003 Rendering image ' + 
+        os.path.join(BASE_DIR, "UnitTestOut", "001", "001", "") + 
+        'img002.tga ...\n', 
+        '        Rendering mask ' + 
+        os.path.join(BASE_DIR, "UnitTestOut", "001", "001", "") + 
+        'mask002.tga ...\n', 
         '\n', 
         'Generation of \n', 
-        '  /home/bayashi/GitHub/SDSIA/UnitTestOut/001/001\n', 'completed.\n', 
+        '  ' + os.path.join(BASE_DIR, "UnitTestOut", "001", "001") + 
+        '\n', 'completed.\n', 
         '\n', 
         ' === Generate data set for\n', 
-        '  /home/bayashi/GitHub/SDSIA/UnitTestIn/dataset-001-002.pov\n', 
-        'to\n', 
-        '  /home/bayashi/GitHub/SDSIA/UnitTestOut/001/002\n', 
+        '  ' + 
+        os.path.join(BASE_DIR, "UnitTestIn", "dataset-001-002.pov") + 
         '\n', 
-        '000/003 Rendering image /home/bayashi/GitHub/SDSIA/UnitTestOut/001/002/img000.tga ...\n', 
-        '        Rendering mask /home/bayashi/GitHub/SDSIA/UnitTestOut/001/002/mask000.tga ...\n', 
-        '001/003 Rendering image /home/bayashi/GitHub/SDSIA/UnitTestOut/001/002/img001.tga ...\n', 
-        '        Rendering mask /home/bayashi/GitHub/SDSIA/UnitTestOut/001/002/mask001.tga ...\n', 
-        '002/003 Rendering image /home/bayashi/GitHub/SDSIA/UnitTestOut/001/002/img002.tga ...\n', 
-        '        Rendering mask /home/bayashi/GitHub/SDSIA/UnitTestOut/001/002/mask002.tga ...\n', 
+        'to\n', 
+        '  ' + 
+        os.path.join(BASE_DIR, "UnitTestOut", "001", "002") + '\n', 
+        '\n', 
+        '000/003 Rendering image ' + 
+        os.path.join(BASE_DIR, "UnitTestOut", "001", "002", "") + 
+        'img000.tga ...\n', 
+        '        Rendering mask ' + 
+        os.path.join(BASE_DIR, "UnitTestOut", "001", "002", "") + 
+        'mask000.tga ...\n', 
+        '001/003 Rendering image ' + 
+        os.path.join(BASE_DIR, "UnitTestOut", "001", "002", "") + 
+        'img001.tga ...\n', 
+        '        Rendering mask ' + 
+        os.path.join(BASE_DIR, "UnitTestOut", "001", "002", "") + 
+        'mask001.tga ...\n', 
+        '002/003 Rendering image ' + 
+        os.path.join(BASE_DIR, "UnitTestOut", "001", "002", "") + 
+        'img002.tga ...\n', 
+        '        Rendering mask ' + 
+        os.path.join(BASE_DIR, "UnitTestOut", "001", "002", "") + 
+        'mask002.tga ...\n', 
         '\n', 
         'Generation of \n', 
-        '  /home/bayashi/GitHub/SDSIA/UnitTestOut/001/002\n', 
+        '  ' + 
+        os.path.join(BASE_DIR, "UnitTestOut", "001", "002") + '\n', 
         'completed.\n', 
         '\n', 
         ' === Generate data set for\n', 
-        '  /home/bayashi/GitHub/SDSIA/UnitTestIn/dataset-002-001.pov\n', 
-        'to\n', 
-        '  /home/bayashi/GitHub/SDSIA/UnitTestOut/002/001\n', 
+        '  ' + 
+        os.path.join(BASE_DIR, "UnitTestIn", "dataset-002-001.pov") + 
         '\n', 
-        '000/003 Rendering image /home/bayashi/GitHub/SDSIA/UnitTestOut/002/001/img000.tga ...\n', 
-        '        Rendering mask /home/bayashi/GitHub/SDSIA/UnitTestOut/002/001/mask000.tga ...\n', 
-        '001/003 Rendering image /home/bayashi/GitHub/SDSIA/UnitTestOut/002/001/img001.tga ...\n', 
-        '        Rendering mask /home/bayashi/GitHub/SDSIA/UnitTestOut/002/001/mask001.tga ...\n', 
-        '002/003 Rendering image /home/bayashi/GitHub/SDSIA/UnitTestOut/002/001/img002.tga ...\n', 
-        '        Rendering mask /home/bayashi/GitHub/SDSIA/UnitTestOut/002/001/mask002.tga ...\n', 
+        'to\n', 
+        '  ' + os.path.join(BASE_DIR, "UnitTestOut", "002", "001") + 
+        '\n', 
+        '\n', 
+        '000/003 Rendering image ' + 
+        os.path.join(BASE_DIR, "UnitTestOut", "002", "001", "") + 
+        'img000.tga ...\n', 
+        '        Rendering mask ' + 
+        os.path.join(BASE_DIR, "UnitTestOut", "002", "001", "") + 
+        'mask000.tga ...\n', 
+        '001/003 Rendering image ' + 
+        os.path.join(BASE_DIR, "UnitTestOut", "002", "001", "") + 
+        'img001.tga ...\n', 
+        '        Rendering mask ' + 
+        os.path.join(BASE_DIR, "UnitTestOut", "002", "001", "") + 
+        'mask001.tga ...\n', 
+        '002/003 Rendering image ' + 
+        os.path.join(BASE_DIR, "UnitTestOut", "002", "001", "") + 
+        'img002.tga ...\n', 
+        '        Rendering mask ' + 
+        os.path.join(BASE_DIR, "UnitTestOut", "002", "001", "") + 
+        'mask002.tga ...\n', 
         '\n', 
         'Generation of \n', 
-        '  /home/bayashi/GitHub/SDSIA/UnitTestOut/002/001\n', 'completed.\n', 
+        '  ' + 
+        os.path.join(BASE_DIR, "UnitTestOut", "002", "001") + '\n', 
+        'completed.\n', 
         '\n', 
         'The following data sets were generated successfully:\n', 
-        '  /home/bayashi/GitHub/SDSIA/UnitTestIn/dataset-001-001.pov\n', 
-        '  /home/bayashi/GitHub/SDSIA/UnitTestIn/dataset-001-002.pov\n', 
-        '  /home/bayashi/GitHub/SDSIA/UnitTestIn/dataset-002-001.pov\n', 
+        '  ' + 
+        os.path.join(BASE_DIR, "UnitTestIn", "dataset-001-001.pov") + 
+        '\n', 
+        '  ' + 
+        os.path.join(BASE_DIR, "UnitTestIn", "dataset-001-002.pov") + 
+        '\n', 
+        '  ' + 
+        os.path.join(BASE_DIR, "UnitTestIn", "dataset-002-001.pov") + 
+        '\n', 
         '\n']
       with open ("out.txt", "r") as fp:
         data = fp.readlines()
@@ -765,9 +838,15 @@ class DataSetGenerator:
       check = [
         '\n', 
         'The following data sets were skipped:\n', 
-        '  /home/bayashi/GitHub/SDSIA/UnitTestIn/dataset-001-001.pov\n', 
-        '  /home/bayashi/GitHub/SDSIA/UnitTestIn/dataset-001-002.pov\n', 
-        '  /home/bayashi/GitHub/SDSIA/UnitTestIn/dataset-002-001.pov\n', 
+        '  ' + 
+        os.path.join(BASE_DIR, "UnitTestIn", "dataset-001-001.pov") + 
+        '\n', 
+        '  ' + 
+        os.path.join(BASE_DIR, "UnitTestIn", "dataset-001-002.pov") + 
+        '\n', 
+        '  ' + 
+        os.path.join(BASE_DIR, "UnitTestIn", "dataset-002-001.pov") + 
+        '\n', 
         '\n']
       if flagSuccess:
         with open("out.txt", "w") as fp:
@@ -791,57 +870,57 @@ class DataSetGenerator:
       check = [
         '\n', 
         ' === Generate data set for\n', 
-        '  /home/bayashi/GitHub/SDSIA/UnitTestIn/dataset-001-001.pov\n', 
+        '  ' + os.path.join(BASE_DIR, "UnitTestIn", "dataset-001-001.pov") + '\n', 
         'to\n', 
-        '  /home/bayashi/GitHub/SDSIA/UnitTestOut/001/001\n', 
+        '  ' + os.path.join(BASE_DIR, "UnitTestOut", "001", "001") + '\n', 
         '\n', 
-        '000/003 Rendering image /home/bayashi/GitHub/SDSIA/UnitTestOut/001/001/img000.tga ...\n', 
-        '        Rendering mask /home/bayashi/GitHub/SDSIA/UnitTestOut/001/001/mask000.tga ...\n', 
-        '001/003 Rendering image /home/bayashi/GitHub/SDSIA/UnitTestOut/001/001/img001.tga ...\n', 
-        '        Rendering mask /home/bayashi/GitHub/SDSIA/UnitTestOut/001/001/mask001.tga ...\n', 
-        '002/003 Rendering image /home/bayashi/GitHub/SDSIA/UnitTestOut/001/001/img002.tga ...\n', 
-        '        Rendering mask /home/bayashi/GitHub/SDSIA/UnitTestOut/001/001/mask002.tga ...\n', 
+        '000/003 Rendering image ' + os.path.join(BASE_DIR, "UnitTestOut", "001", "001", "") + 'img000.tga ...\n', 
+        '        Rendering mask ' + os.path.join(BASE_DIR, "UnitTestOut", "001", "001", "") + 'mask000.tga ...\n', 
+        '001/003 Rendering image ' + os.path.join(BASE_DIR, "UnitTestOut", "001", "001", "") + 'img001.tga ...\n', 
+        '        Rendering mask ' + os.path.join(BASE_DIR, "UnitTestOut", "001", "001", "") + 'mask001.tga ...\n', 
+        '002/003 Rendering image ' + os.path.join(BASE_DIR, "UnitTestOut", "001", "001", "") + 'img002.tga ...\n', 
+        '        Rendering mask ' + os.path.join(BASE_DIR, "UnitTestOut", "001", "001", "") + 'mask002.tga ...\n', 
         '\n', 
         'Generation of \n', 
-        '  /home/bayashi/GitHub/SDSIA/UnitTestOut/001/001\n', 
+        '  ' + os.path.join(BASE_DIR, "UnitTestOut", "001", "001") + '\n', 
         'completed.\n', 
         '\n', 
         ' === Generate data set for\n', 
-        '  /home/bayashi/GitHub/SDSIA/UnitTestIn/dataset-001-002.pov\n', 
+        '  ' + os.path.join(BASE_DIR, "UnitTestIn", "dataset-001-002.pov") + '\n', 
         'to\n', 
-        '  /home/bayashi/GitHub/SDSIA/UnitTestOut/001/002\n', 
+        '  ' + os.path.join(BASE_DIR, "UnitTestOut", "001", "002") + '\n', 
         '\n', 
-        '000/003 Rendering image /home/bayashi/GitHub/SDSIA/UnitTestOut/001/002/img000.tga ...\n', 
-        '        Rendering mask /home/bayashi/GitHub/SDSIA/UnitTestOut/001/002/mask000.tga ...\n', 
-        '001/003 Rendering image /home/bayashi/GitHub/SDSIA/UnitTestOut/001/002/img001.tga ...\n', 
-        '        Rendering mask /home/bayashi/GitHub/SDSIA/UnitTestOut/001/002/mask001.tga ...\n', 
-        '002/003 Rendering image /home/bayashi/GitHub/SDSIA/UnitTestOut/001/002/img002.tga ...\n', 
-        '        Rendering mask /home/bayashi/GitHub/SDSIA/UnitTestOut/001/002/mask002.tga ...\n', 
+        '000/003 Rendering image ' + os.path.join(BASE_DIR, "UnitTestOut", "001", "002", "") + 'img000.tga ...\n', 
+        '        Rendering mask ' + os.path.join(BASE_DIR, "UnitTestOut", "001", "002", "") + 'mask000.tga ...\n', 
+        '001/003 Rendering image ' + os.path.join(BASE_DIR, "UnitTestOut", "001", "002", "") + 'img001.tga ...\n', 
+        '        Rendering mask ' + os.path.join(BASE_DIR, "UnitTestOut", "001", "002", "") + 'mask001.tga ...\n', 
+        '002/003 Rendering image ' + os.path.join(BASE_DIR, "UnitTestOut", "001", "002", "") + 'img002.tga ...\n', 
+        '        Rendering mask ' + os.path.join(BASE_DIR, "UnitTestOut", "001", "002", "") + 'mask002.tga ...\n', 
         '\n', 
         'Generation of \n',
-        '  /home/bayashi/GitHub/SDSIA/UnitTestOut/001/002\n', 
+        '  ' + os.path.join(BASE_DIR, "UnitTestOut", "001", "002") + '\n', 
         'completed.\n', 
         '\n', 
         ' === Generate data set for\n', 
-        '  /home/bayashi/GitHub/SDSIA/UnitTestIn/dataset-002-001.pov\n', 
+        '  ' + os.path.join(BASE_DIR, "UnitTestIn", "dataset-002-001.pov") + '\n', 
         'to\n', 
-        '  /home/bayashi/GitHub/SDSIA/UnitTestOut/002/001\n', 
+        '  ' + os.path.join(BASE_DIR, "UnitTestOut", "002", "001") + '\n', 
         '\n', 
-        '000/003 Rendering image /home/bayashi/GitHub/SDSIA/UnitTestOut/002/001/img000.tga ...\n', 
-        '        Rendering mask /home/bayashi/GitHub/SDSIA/UnitTestOut/002/001/mask000.tga ...\n', 
-        '001/003 Rendering image /home/bayashi/GitHub/SDSIA/UnitTestOut/002/001/img001.tga ...\n', 
-        '        Rendering mask /home/bayashi/GitHub/SDSIA/UnitTestOut/002/001/mask001.tga ...\n', 
-        '002/003 Rendering image /home/bayashi/GitHub/SDSIA/UnitTestOut/002/001/img002.tga ...\n', 
-        '        Rendering mask /home/bayashi/GitHub/SDSIA/UnitTestOut/002/001/mask002.tga ...\n', 
+        '000/003 Rendering image ' + os.path.join(BASE_DIR, "UnitTestOut", "002", "001", "") + 'img000.tga ...\n', 
+        '        Rendering mask ' + os.path.join(BASE_DIR, "UnitTestOut", "002", "001", "") + 'mask000.tga ...\n', 
+        '001/003 Rendering image ' + os.path.join(BASE_DIR, "UnitTestOut", "002", "001", "") + 'img001.tga ...\n', 
+        '        Rendering mask ' + os.path.join(BASE_DIR, "UnitTestOut", "002", "001", "") + 'mask001.tga ...\n', 
+        '002/003 Rendering image ' + os.path.join(BASE_DIR, "UnitTestOut", "002", "001", "") + 'img002.tga ...\n', 
+        '        Rendering mask ' + os.path.join(BASE_DIR, "UnitTestOut", "002", "001", "") + 'mask002.tga ...\n', 
         '\n', 
         'Generation of \n', 
-        '  /home/bayashi/GitHub/SDSIA/UnitTestOut/002/001\n', 
+        '  ' + os.path.join(BASE_DIR, "UnitTestOut", "002", "001") + '\n', 
         'completed.\n', 
         '\n', 
         'The following data sets were generated successfully:\n', 
-        '  /home/bayashi/GitHub/SDSIA/UnitTestIn/dataset-001-001.pov\n', 
-        '  /home/bayashi/GitHub/SDSIA/UnitTestIn/dataset-001-002.pov\n', 
-        '  /home/bayashi/GitHub/SDSIA/UnitTestIn/dataset-002-001.pov\n', 
+        '  ' + os.path.join(BASE_DIR, "UnitTestIn", "dataset-001-001.pov") + '\n', 
+        '  ' + os.path.join(BASE_DIR, "UnitTestIn", "dataset-001-002.pov") + '\n', 
+        '  ' + os.path.join(BASE_DIR, "UnitTestIn", "dataset-002-001.pov") + '\n', 
         '\n']
       with open ("out.txt", "r") as fp:
         data = fp.readlines()
