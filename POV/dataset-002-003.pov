@@ -3,12 +3,10 @@
 
 #declare _texMaskTarget = texture {
   pigment { color Black }
-  finish { ambient 0 }
 }
 
 #declare _texMaskNonTarget = texture {
   pigment { color White }
-  finish { ambient 1 diffuse 100 }
 }
 
 #declare RndSeed = seed(clock);

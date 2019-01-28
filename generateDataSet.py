@@ -161,6 +161,7 @@ class DataSet:
 
         # Update the command and the ini file to render the mask
         cmd[1] = "+Omask" + iRenderPadded + "." + self._format
+        cmd[6] = "-Q0"
         with open(iniFilePath, "w") as fp:
           fp.write("Declare=Mask=1")
         

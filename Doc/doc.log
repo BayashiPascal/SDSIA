@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.10.18)  27 JAN 2019 19:40
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.10.18)  28 JAN 2019 22:41
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -849,18 +849,19 @@ Overfull \hbox (149.75775pt too wide) in paragraph at lines 302--302
 nd. Various position, size and rotation. The cube is the target.",[] 
  []
 
-[45] <./img-002-001.png, id=160, 250.9375pt x 250.9375pt>
+<./img-002-001.png, id=157, 250.9375pt x 250.9375pt>
 File: ./img-002-001.png Graphic file (type png)
-
-<use ./img-002-001.png>
+ <use ./img-002-001.png>
 Package pdftex.def Info: ./img-002-001.png used on input line 309.
 (pdftex.def)             Requested size: 85.35826pt x 85.35973pt.
- <./mask-002-001.png, id=161, 250.9375pt x 250.9375pt>
-File: ./mask-002-001.png Graphic file (type png)
 
-<use ./mask-002-001.png>
+<./mask-002-001.png, id=158, 250.9375pt x 250.9375pt>
+File: ./mask-002-001.png Graphic file (type png)
+ <use ./mask-002-001.png>
 Package pdftex.def Info: ./mask-002-001.png used on input line 310.
 (pdftex.def)             Requested size: 85.35826pt x 85.35973pt.
+
+[45]
 File: ../POV/dataset-002-001.pov  (verbatim)
  [46 <./img-002-001.png> <./mask-002-001.png>]
 File: ../POV/dataset-002-002.json  (verbatim)
@@ -923,7 +924,7 @@ t/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/share/texlive/texmf-dist/font
 s/type1/public/amsfonts/cm/cmtt8.pfb>
 
 pdfTeX warning: pdflatex: no GlyphToUnicode entry has been inserted yet!
-Output written on doc.pdf (51 pages, 267856 bytes).
+Output written on doc.pdf (51 pages, 267686 bytes).
 PDF statistics:
  204 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)

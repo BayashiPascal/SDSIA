@@ -4,13 +4,11 @@
 // Black texture used to create the mask of the target
 #declare _texMaskTarget = texture {
   pigment { color Black }
-  finish { ambient 0 }
 }
 
 // White texture used to create the mask of the non-target
 #declare _texMaskNonTarget = texture {
   pigment { color White }
-  finish { ambient 1 diffuse 100 }
 }
 
 // Random generator seed, based on the clock variable set by the 
