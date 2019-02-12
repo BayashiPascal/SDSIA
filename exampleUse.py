@@ -35,16 +35,16 @@ def Main(dataSetFolderPath):
 
     # Display info about the data set
     print("Description: " + dataSetDesc["desc"])
-    print("Nb image: " + dataSetDesc["nbImg"])
+    print("Nb image: " + dataSetDesc["nbSample"])
     print("Dimension image (width, height): " + str(dataSetDesc["dim"]))
     print("Format image: " + dataSetDesc["format"])
     
     # Loop on the data set
-    for iSample in range(int(dataSetDesc["nbImg"])):
+    for iSample in range(int(dataSetDesc["nbSample"])):
       
       # Get the path to the image and mask
-      imgFileName = dataSetDesc["images"][iSample][0]
-      maskFileName = dataSetDesc["images"][iSample][1]
+      imgFileName = dataSetDesc["samples"][iSample]["img"]
+      maskFileName = dataSetDesc["samples"][iSample]["mask"]
       imgFilePath = os.path.join(dataSetFolderPath, imgFileName)
       maskFilePath = os.path.join(dataSetFolderPath, maskFileName)
      

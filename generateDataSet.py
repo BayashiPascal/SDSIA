@@ -21,7 +21,7 @@ class DataSet:
   # Type of the data set (place holder for future extension)
   _type = ""
   # Number of images in the data set
-  _nbImg = "0"
+  _nbSample = "0"
   # Dimensions of the images in the data set [width, height]
   _dim = ["1", "1"]
   # format of the images in the data set
@@ -50,7 +50,7 @@ class DataSet:
       self._name = dataSetName
       self._desc = dataSetDesc["desc"]
       self._type = dataSetDesc["dataSetType"]
-      self._nbImg = dataSetDesc["nbImg"]
+      self._nbSample = dataSetDesc["nbSample"]
       self._dim = dataSetDesc["dim"]
       self._format = dataSetDesc["format"]
       
@@ -79,10 +79,10 @@ class DataSet:
       content["dataSet"] = self._name
       content["desc"] = self._desc
       content["dataSetType"] = self._type
-      content["nbImg"] = self._nbImg
+      content["nbSample"] = self._nbSample
       content["dim"] = self._dim
       content["format"] = self._format
-      content["images"] = self._images
+      content["samples"] = self._images
 
       # Encode the content to JSON format and return it
       ret = json.dumps(content, \
@@ -104,7 +104,7 @@ class DataSet:
     try:
       
       # Loop on the number of images to be rendered
-      for iRender in range(int(self._nbImg)):
+      for iRender in range(int(self._nbSample)):
         
         # Create the file name of the image and mask
         iRenderPadded = str(iRender).zfill(3)
@@ -125,8 +125,8 @@ class DataSet:
         cmd = []
         cmd.append("povray")
         cmd.append("+Oimg" + iRenderPadded + "." + self._format)
-        cmd.append("-W" + self._dim[0])
-        cmd.append("-H" + self._dim[1])
+        cmd.append("-W" + self._dim["_val"][0])
+        cmd.append("-H" + self._dim["_val"][1])
         cmd.append("-D")
         cmd.append("-P")
         cmd.append("-Q9")
@@ -150,7 +150,7 @@ class DataSet:
         # Render the image silently
         imgPath =  os.path.join(outFolder, \
           "img" + iRenderPadded + "." + self._format)
-        print(iRenderPadded + "/" + self._nbImg.zfill(3) + \
+        print(iRenderPadded + "/" + self._nbSample.zfill(3) + \
           " Rendering image " + imgPath + " ...")
         FNULL = open(os.devnull, 'w')
         subprocess.call(cmd, stderr = FNULL, cwd = outFolder)

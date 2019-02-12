@@ -1,10 +1,6 @@
+python generateDataSet.py -unitTest
 [-list] OK
 [-simul] OK
 Generation OK
 [-force] OK
 UnitTest of generateDataSet.py succeeded
-UnitTestPython OK
-UnitTestSDSIACreateFree OK
-UnitTestSDSIAGet OK
-UnitTestSDSIASplitUnsplitShuffle OK
-UnitTestSDSIAGetSample OK

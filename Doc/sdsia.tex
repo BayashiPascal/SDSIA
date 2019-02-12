@@ -1,6 +1,6 @@
 \section*{Introduction}
 
-SDSIA is a Python module to generate synthetic data sets for image analysis, and a C library to manipulate these data sets.\\
+SDSIA is a Python module to generate synthetic data sets for image analysis.\\
 
 The goal of the Python module is to provide a way to easily generate data sets of images used by image analysis softwares or algorithms, in a context of learning or development.\\
 
@@ -14,15 +14,11 @@ The number of images per data set, the dimensions and format of each image are a
 
 The current version of SDSIA is designed for image segmentation (localization of pixels corresponding to an object in a scene). However it has been developped with the view to be extended to other kind of data sets.\\
 
-The C library offers the following functionalities: loading a data set from its description file, spitting the data set into user defined categories (e.g. training, validation, test), shuffling the data set, looping through the samples of the data set. It provides the samples of the data set as GenBrush objects to manipulate them easily through this library's functionalities.\\
+The generated data sets are compatible with the C library GDataSet (type GDataSetType\_GenBrushPair).\\
 
-The C library uses the \begin{ttfamily}PBErr\end{ttfamily}, \begin{ttfamily}GSet\end{ttfamily}, \begin{ttfamily}PBJson\end{ttfamily}, \begin{ttfamily}GenBrush\end{ttfamily} and \begin{ttfamily}PBFileSys\end{ttfamily} libraries.\\
+\section{Usage}
 
-\section{Python module}
-
-\subsection{Usage}
-
-\subsubsection{Unit test}
+\subsection{Unit test}
 
 One can run the unit test with the command python generateDataSet.py. Upon success the following messages will be displayed:
 
@@ -34,7 +30,7 @@ One can run the unit test with the command python generateDataSet.py. Upon succe
 
 If the unit test fails, make sure POV-Ray is correctly installed by running, for example, the comand \begin{ttfamily}./install test\end{ttfamily} in the folder where POV-Ray has been installed (Refer to the POV-Ray documentation for more details). If POV-Ray is correctly installed and the unit test still fails, please contact the developper.
 
-\subsubsection{Create a new data set}
+\subsection{Create a new data set}
 
 To create a new data set, one has to create the description file and the POV-Ray script for this new data set. Templates for each of them are given below.\\
  
@@ -102,7 +98,7 @@ won't render the correct mask. The call to the random generator in the backgroun
 \end{ttfamily}
 \end{scriptsize}
 
-\subsubsection{Generate one or several data sets}
+\subsection{Generate one or several data sets}
 
 One can generate the data sets in the default \begin{ttfamily}POV\end{ttfamily} folder of the SDSIA repository with the command \begin{ttfamily}python generateDataSet.py\end{ttfamily}. One can also specify another folder or one single data set with the \begin{ttfamily}-in\end{ttfamily} argument: \begin{ttfamily}python generateDataSet.py -in <path>\end{ttfamily} where path is the path to the folder containing the data sets' description file and POV-Ray script, or the path to the data set's POV-Ray script.\\
 
@@ -117,7 +113,7 @@ By default, data sets are only generated if necessary, i.e. the description file
 
 One can use the \begin{ttfamily}-simul\end{ttfamily} argument to check what will be generated without actually rendering the images and masks, which may be useful to check that everything will be as expected before running a time consuming generation.\\
 
-\subsubsection{Listing of the data sets}
+\subsection{Listing of the data sets}
 
 One can get a listing of the data sets with the command \begin{ttfamily}python generateDataSet.py -list\end{ttfamily}. Example of output:\\
 \begin{scriptsize}
@@ -130,9 +126,9 @@ The listing is generated according to the arguments \begin{ttfamily}-in\end{ttfa
 
 The mark \begin{ttfamily}[*]\end{ttfamily} means the data sets has been generated, and the mark \begin{ttfamily}[ ]\end{ttfamily} means it is not yet generated.
 
-\subsection{Code}
+\section{Code}
 
-\subsubsection{generateDataSet.py}
+\subsection{generateDataSet.py}
 
 \begin{scriptsize}
 \begin{ttfamily}
@@ -150,35 +146,7 @@ A boilerplate to use the generated data sets is given below:
 \end{ttfamily}
 \end{scriptsize}
 
-\section{C Library}
-
-\subsection{Interface}
-
-\begin{scriptsize}
-\begin{ttfamily}
-\verbatiminput{/home/bayashi/GitHub/SDSIA/sdsia.h}
-\end{ttfamily}
-\end{scriptsize}
-
-\subsection{Code}
-
-\subsubsection{sdsia.c}
-
-\begin{scriptsize}
-\begin{ttfamily}
-\verbatiminput{/home/bayashi/GitHub/SDSIA/sdsia.c}
-\end{ttfamily}
-\end{scriptsize}
-
-\subsubsection{sdsia-inline.c}
-
-\begin{scriptsize}
-\begin{ttfamily}
-\verbatiminput{/home/bayashi/GitHub/SDSIA/sdsia-inline.c}
-\end{ttfamily}
-\end{scriptsize}
-
-\subsection{Unit test}
+\section{Unit test output}
 
 \begin{scriptsize}
 \begin{ttfamily}

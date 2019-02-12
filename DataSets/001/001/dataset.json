@@ -1,13 +1,17 @@
 {
   "dataSet": "dataset-001-001",
-  "dataSetType": "0",
+  "dataSetType": "1",
   "desc": "A red cube on a white background. Various position and size.",
-  "dim": [
-    "250",
-    "250"
-  ],
+  "dim": {
+    "_dim": "2",
+    "_val": [
+      "250",
+      "250"
+    ]
+  },
   "format": "tga",
-  "images": [
+  "nbSample": "100",
+  "samples": [
     {
       "img": "img000.tga",
       "mask": "mask000.tga"
@@ -408,6 +412,5 @@
       "img": "img099.tga",
       "mask": "mask099.tga"
     }
-  ],
-  "nbImg": "100"
+  ]
 }

@@ -1,10 +1,10 @@
 {
-  "dataSetType": "0",
+  "dataSetType": "1",
   "desc": "unitTest",
-  "dim": [
-    "10",
-    "20"
-  ],
+  "dim": {
+    "_dim":"2",
+    "_val":["10", "20"]
+  },
   "format": "tga",
-  "nbImg": "3"
+  "nbSample": "3"
 }

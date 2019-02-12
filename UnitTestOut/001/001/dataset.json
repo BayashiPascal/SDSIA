@@ -1,13 +1,17 @@
 {
   "dataSet": "dataset-001-001",
-  "dataSetType": "0",
+  "dataSetType": "1",
   "desc": "unitTest",
-  "dim": [
-    "10",
-    "20"
-  ],
+  "dim": {
+    "_dim": "2",
+    "_val": [
+      "10",
+      "20"
+    ]
+  },
   "format": "tga",
-  "images": [
+  "nbSample": "3",
+  "samples": [
     {
       "img": "img000.tga",
       "mask": "mask000.tga"
@@ -20,6 +24,5 @@
       "img": "img002.tga",
       "mask": "mask002.tga"
     }
-  ],
-  "nbImg": "3"
+  ]
 }
