@@ -28,7 +28,7 @@ light_source {
 
 background { color rgb <1.0, 1.0, 1.0> }
 
-#declare Target = box {
+#declare TargetA = box {
   -1, 1
   rotate <rnd(-90.0, 90.0), rnd(-90.0, 90.0), rnd(-90.0, 90.0)>
   translate x * rnd(-3, 3)
@@ -37,11 +37,15 @@ background { color rgb <1.0, 1.0, 1.0> }
   #if (Mask = 0)
     pigment { color Red }
   #else
-    texture {_texMaskTarget}
+    #if (Mask = 1)
+      texture {_texMaskTarget}
+    #else
+      texture {_texMaskNonTarget}
+    #end
   #end
 };
 
-#declare NonTarget = cylinder { 
+#declare TargetB = cylinder { 
   -y, y, 0.5 
   scale rnd(0.5, 1.5)
   rotate <rnd(-90.0, 90.0), rnd(-90.0, 90.0), rnd(-90.0, 90.0)>
@@ -50,9 +54,13 @@ background { color rgb <1.0, 1.0, 1.0> }
   #if (Mask = 0)
     pigment { color Blue }
   #else
-    texture {_texMaskNonTarget}
+    #if (Mask = 1)
+      texture {_texMaskNonTarget}
+    #else
+      texture {_texMaskTarget}
+    #end
   #end
 }
 
-object { Target }
-object { NonTarget }
+object { TargetA }
+object { TargetB }

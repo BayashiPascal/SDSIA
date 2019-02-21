@@ -35,7 +35,7 @@ light_source {
 // Background
 background { color rgb <1.0, 1.0, 1.0> }
 
-// Target definition
+// Target 1 definition
 #declare Target = box {
   -1, 1
 
@@ -46,13 +46,19 @@ background { color rgb <1.0, 1.0, 1.0> }
   // Mask variable set by the SDSIA generator 
   #if (Mask = 0)
     pigment { color Red }
-  #else
-    texture {_texMaskTarget}
+  #else 
+    #if (Mask = 1)
+      texture {_texMaskTarget}
+    #else 
+      #if (Mask = 2)
+        texture {_texMaskNonTarget}
+      #end
+    #end
   #end
 
 }
 
-// Non-target definition
+// Target 2 definition
 #declare NonTarget = cylinder { 
   -y, y, 0.5
   
@@ -63,8 +69,14 @@ background { color rgb <1.0, 1.0, 1.0> }
   // Mask variable set by the SDSIA generator 
   #if (Mask = 0)
     pigment { color Blue }
-  #else
-    texture {_texMaskNonTarget}
+  #else 
+    #if (Mask = 1)
+      texture {_texMaskNonTarget}
+    #else 
+      #if (Mask = 2)
+        texture {_texMaskTarget}
+      #end
+    #end
   #end
 
 }

@@ -6,5 +6,6 @@
     "_val":["10", "20"]
   },
   "format": "tga",
-  "nbSample": "3"
+  "nbSample": "3",
+  "nbMask": "1"
 }

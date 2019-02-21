@@ -10,31 +10,44 @@
     ]
   },
   "format": "tga",
+  "nbMask": "1",
   "nbSample": "3",
   "samples": [
     {
       "img": "img000.tga",
-      "mask": "mask000.tga"
+      "mask": [
+        "mask000.tga"
+      ]
     },
     {
       "img": "img001.tga",
-      "mask": "mask001.tga"
+      "mask": [
+        "mask001.tga"
+      ]
     },
     {
       "img": "img002.tga",
-      "mask": "mask002.tga"
+      "mask": [
+        "mask002.tga"
+      ]
     },
     {
       "img": "img000.tga",
-      "mask": "mask000.tga"
+      "mask": [
+        "mask000.tga"
+      ]
     },
     {
       "img": "img001.tga",
-      "mask": "mask001.tga"
+      "mask": [
+        "mask001.tga"
+      ]
     },
     {
       "img": "img002.tga",
-      "mask": "mask002.tga"
+      "mask": [
+        "mask002.tga"
+      ]
     }
   ]
 }
