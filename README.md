@@ -12,10 +12,12 @@ Once the user has written the script to render images, the python module takes c
 
 The number of images per data set, the dimensions and format of each image are also defined by the user. Then, one can create sets corresponding to its needs, in particular memory, disk storage, processing time limits.
 
+If the output format is supported by cv2.imread, the relative coordinates (as expected by Yolo) of the bounding box for each mask are also generated.
+
 The current version of SDSIA is designed for image segmentation (localization of pixels corresponding to an object in a scene). However it has been developped with the view to be extended to other kind of data sets.
 
 ## How to install this repository
 
 The Python module doesn't require any particular operation, but you will need to have the following Python module installed on your machine:
-os, sys, json, glob, subprocess, re, shutil
+os, sys, json, glob, subprocess, re, shutil, cv2, numpy
 If you need assistance feel free to contact me with my gmail address: at bayashipascal.

@@ -14,6 +14,7 @@
   "nbSample": "100",
   "samples": [
     {
+      "bounding": [],
       "img": "img000.tga",
       "mask": [
         "mask000-000.tga",
@@ -21,6 +22,7 @@
       ]
     },
     {
+      "bounding": [],
       "img": "img001.tga",
       "mask": [
         "mask001-000.tga",
@@ -28,6 +30,7 @@
       ]
     },
     {
+      "bounding": [],
       "img": "img002.tga",
       "mask": [
         "mask002-000.tga",
@@ -35,6 +38,7 @@
       ]
     },
     {
+      "bounding": [],
       "img": "img003.tga",
       "mask": [
         "mask003-000.tga",
@@ -42,6 +46,7 @@
       ]
     },
     {
+      "bounding": [],
       "img": "img004.tga",
       "mask": [
         "mask004-000.tga",
@@ -49,6 +54,7 @@
       ]
     },
     {
+      "bounding": [],
       "img": "img005.tga",
       "mask": [
         "mask005-000.tga",
@@ -56,6 +62,7 @@
       ]
     },
     {
+      "bounding": [],
       "img": "img006.tga",
       "mask": [
         "mask006-000.tga",
@@ -63,6 +70,7 @@
       ]
     },
     {
+      "bounding": [],
       "img": "img007.tga",
       "mask": [
         "mask007-000.tga",
@@ -70,6 +78,7 @@
       ]
     },
     {
+      "bounding": [],
       "img": "img008.tga",
       "mask": [
         "mask008-000.tga",
@@ -77,6 +86,7 @@
       ]
     },
     {
+      "bounding": [],
       "img": "img009.tga",
       "mask": [
         "mask009-000.tga",
@@ -84,6 +94,7 @@
       ]
     },
     {
+      "bounding": [],
       "img": "img010.tga",
       "mask": [
         "mask010-000.tga",
@@ -91,6 +102,7 @@
       ]
     },
     {
+      "bounding": [],
       "img": "img011.tga",
       "mask": [
         "mask011-000.tga",
@@ -98,6 +110,7 @@
       ]
     },
     {
+      "bounding": [],
       "img": "img012.tga",
       "mask": [
         "mask012-000.tga",
@@ -105,6 +118,7 @@
       ]
     },
     {
+      "bounding": [],
       "img": "img013.tga",
       "mask": [
         "mask013-000.tga",
@@ -112,6 +126,7 @@
       ]
     },
     {
+      "bounding": [],
       "img": "img014.tga",
       "mask": [
         "mask014-000.tga",
@@ -119,6 +134,7 @@
       ]
     },
     {
+      "bounding": [],
       "img": "img015.tga",
       "mask": [
         "mask015-000.tga",
@@ -126,6 +142,7 @@
       ]
     },
     {
+      "bounding": [],
       "img": "img016.tga",
       "mask": [
         "mask016-000.tga",
@@ -133,6 +150,7 @@
       ]
     },
     {
+      "bounding": [],
       "img": "img017.tga",
       "mask": [
         "mask017-000.tga",
@@ -140,6 +158,7 @@
       ]
     },
     {
+      "bounding": [],
       "img": "img018.tga",
       "mask": [
         "mask018-000.tga",
@@ -147,6 +166,7 @@
       ]
     },
     {
+      "bounding": [],
       "img": "img019.tga",
       "mask": [
         "mask019-000.tga",
@@ -154,6 +174,7 @@
       ]
     },
     {
+      "bounding": [],
       "img": "img020.tga",
       "mask": [
         "mask020-000.tga",
@@ -161,6 +182,7 @@
       ]
     },
     {
+      "bounding": [],
       "img": "img021.tga",
       "mask": [
         "mask021-000.tga",
@@ -168,6 +190,7 @@
       ]
     },
     {
+      "bounding": [],
       "img": "img022.tga",
       "mask": [
         "mask022-000.tga",
@@ -175,6 +198,7 @@
       ]
     },
     {
+      "bounding": [],
       "img": "img023.tga",
       "mask": [
         "mask023-000.tga",
@@ -182,6 +206,7 @@
       ]
     },
     {
+      "bounding": [],
       "img": "img024.tga",
       "mask": [
         "mask024-000.tga",
@@ -189,6 +214,7 @@
       ]
     },
     {
+      "bounding": [],
       "img": "img025.tga",
       "mask": [
         "mask025-000.tga",
@@ -196,6 +222,7 @@
       ]
     },
     {
+      "bounding": [],
       "img": "img026.tga",
       "mask": [
         "mask026-000.tga",
@@ -203,6 +230,7 @@
       ]
     },
     {
+      "bounding": [],
       "img": "img027.tga",
       "mask": [
         "mask027-000.tga",
@@ -210,6 +238,7 @@
       ]
     },
     {
+      "bounding": [],
       "img": "img028.tga",
       "mask": [
         "mask028-000.tga",
@@ -217,6 +246,7 @@
       ]
     },
     {
+      "bounding": [],
       "img": "img029.tga",
       "mask": [
         "mask029-000.tga",
@@ -224,6 +254,7 @@
       ]
     },
     {
+      "bounding": [],
       "img": "img030.tga",
       "mask": [
         "mask030-000.tga",
@@ -231,6 +262,7 @@
       ]
     },
     {
+      "bounding": [],
       "img": "img031.tga",
       "mask": [
         "mask031-000.tga",
@@ -238,6 +270,7 @@
       ]
     },
     {
+      "bounding": [],
       "img": "img032.tga",
       "mask": [
         "mask032-000.tga",
@@ -245,6 +278,7 @@
       ]
     },
     {
+      "bounding": [],
       "img": "img033.tga",
       "mask": [
         "mask033-000.tga",
@@ -252,6 +286,7 @@
       ]
     },
     {
+      "bounding": [],
       "img": "img034.tga",
       "mask": [
         "mask034-000.tga",
@@ -259,6 +294,7 @@
       ]
     },
     {
+      "bounding": [],
       "img": "img035.tga",
       "mask": [
         "mask035-000.tga",
@@ -266,6 +302,7 @@
       ]
     },
     {
+      "bounding": [],
       "img": "img036.tga",
       "mask": [
         "mask036-000.tga",
@@ -273,6 +310,7 @@
       ]
     },
     {
+      "bounding": [],
       "img": "img037.tga",
       "mask": [
         "mask037-000.tga",
@@ -280,6 +318,7 @@
       ]
     },
     {
+      "bounding": [],
       "img": "img038.tga",
       "mask": [
         "mask038-000.tga",
@@ -287,6 +326,7 @@
       ]
     },
     {
+      "bounding": [],
       "img": "img039.tga",
       "mask": [
         "mask039-000.tga",
@@ -294,6 +334,7 @@
       ]
     },
     {
+      "bounding": [],
       "img": "img040.tga",
       "mask": [
         "mask040-000.tga",
@@ -301,6 +342,7 @@
       ]
     },
     {
+      "bounding": [],
       "img": "img041.tga",
       "mask": [
         "mask041-000.tga",
@@ -308,6 +350,7 @@
       ]
     },
     {
+      "bounding": [],
       "img": "img042.tga",
       "mask": [
         "mask042-000.tga",
@@ -315,6 +358,7 @@
       ]
     },
     {
+      "bounding": [],
       "img": "img043.tga",
       "mask": [
         "mask043-000.tga",
@@ -322,6 +366,7 @@
       ]
     },
     {
+      "bounding": [],
       "img": "img044.tga",
       "mask": [
         "mask044-000.tga",
@@ -329,6 +374,7 @@
       ]
     },
     {
+      "bounding": [],
       "img": "img045.tga",
       "mask": [
         "mask045-000.tga",
@@ -336,6 +382,7 @@
       ]
     },
     {
+      "bounding": [],
       "img": "img046.tga",
       "mask": [
         "mask046-000.tga",
@@ -343,6 +390,7 @@
       ]
     },
     {
+      "bounding": [],
       "img": "img047.tga",
       "mask": [
         "mask047-000.tga",
@@ -350,6 +398,7 @@
       ]
     },
     {
+      "bounding": [],
       "img": "img048.tga",
       "mask": [
         "mask048-000.tga",
@@ -357,6 +406,7 @@
       ]
     },
     {
+      "bounding": [],
       "img": "img049.tga",
       "mask": [
         "mask049-000.tga",
@@ -364,6 +414,7 @@
       ]
     },
     {
+      "bounding": [],
       "img": "img050.tga",
       "mask": [
         "mask050-000.tga",
@@ -371,6 +422,7 @@
       ]
     },
     {
+      "bounding": [],
       "img": "img051.tga",
       "mask": [
         "mask051-000.tga",
@@ -378,6 +430,7 @@
       ]
     },
     {
+      "bounding": [],
       "img": "img052.tga",
       "mask": [
         "mask052-000.tga",
@@ -385,6 +438,7 @@
       ]
     },
     {
+      "bounding": [],
       "img": "img053.tga",
       "mask": [
         "mask053-000.tga",
@@ -392,6 +446,7 @@
       ]
     },
     {
+      "bounding": [],
       "img": "img054.tga",
       "mask": [
         "mask054-000.tga",
@@ -399,6 +454,7 @@
       ]
     },
     {
+      "bounding": [],
       "img": "img055.tga",
       "mask": [
         "mask055-000.tga",
@@ -406,6 +462,7 @@
       ]
     },
     {
+      "bounding": [],
       "img": "img056.tga",
       "mask": [
         "mask056-000.tga",
@@ -413,6 +470,7 @@
       ]
     },
     {
+      "bounding": [],
       "img": "img057.tga",
       "mask": [
         "mask057-000.tga",
@@ -420,6 +478,7 @@
       ]
     },
     {
+      "bounding": [],
       "img": "img058.tga",
       "mask": [
         "mask058-000.tga",
@@ -427,6 +486,7 @@
       ]
     },
     {
+      "bounding": [],
       "img": "img059.tga",
       "mask": [
         "mask059-000.tga",
@@ -434,6 +494,7 @@
       ]
     },
     {
+      "bounding": [],
       "img": "img060.tga",
       "mask": [
         "mask060-000.tga",
@@ -441,6 +502,7 @@
       ]
     },
     {
+      "bounding": [],
       "img": "img061.tga",
       "mask": [
         "mask061-000.tga",
@@ -448,6 +510,7 @@
       ]
     },
     {
+      "bounding": [],
       "img": "img062.tga",
       "mask": [
         "mask062-000.tga",
@@ -455,6 +518,7 @@
       ]
     },
     {
+      "bounding": [],
       "img": "img063.tga",
       "mask": [
         "mask063-000.tga",
@@ -462,6 +526,7 @@
       ]
     },
     {
+      "bounding": [],
       "img": "img064.tga",
       "mask": [
         "mask064-000.tga",
@@ -469,6 +534,7 @@
       ]
     },
     {
+      "bounding": [],
       "img": "img065.tga",
       "mask": [
         "mask065-000.tga",
@@ -476,6 +542,7 @@
       ]
     },
     {
+      "bounding": [],
       "img": "img066.tga",
       "mask": [
         "mask066-000.tga",
@@ -483,6 +550,7 @@
       ]
     },
     {
+      "bounding": [],
       "img": "img067.tga",
       "mask": [
         "mask067-000.tga",
@@ -490,6 +558,7 @@
       ]
     },
     {
+      "bounding": [],
       "img": "img068.tga",
       "mask": [
         "mask068-000.tga",
@@ -497,6 +566,7 @@
       ]
     },
     {
+      "bounding": [],
       "img": "img069.tga",
       "mask": [
         "mask069-000.tga",
@@ -504,6 +574,7 @@
       ]
     },
     {
+      "bounding": [],
       "img": "img070.tga",
       "mask": [
         "mask070-000.tga",
@@ -511,6 +582,7 @@
       ]
     },
     {
+      "bounding": [],
       "img": "img071.tga",
       "mask": [
         "mask071-000.tga",
@@ -518,6 +590,7 @@
       ]
     },
     {
+      "bounding": [],
       "img": "img072.tga",
       "mask": [
         "mask072-000.tga",
@@ -525,6 +598,7 @@
       ]
     },
     {
+      "bounding": [],
       "img": "img073.tga",
       "mask": [
         "mask073-000.tga",
@@ -532,6 +606,7 @@
       ]
     },
     {
+      "bounding": [],
       "img": "img074.tga",
       "mask": [
         "mask074-000.tga",
@@ -539,6 +614,7 @@
       ]
     },
     {
+      "bounding": [],
       "img": "img075.tga",
       "mask": [
         "mask075-000.tga",
@@ -546,6 +622,7 @@
       ]
     },
     {
+      "bounding": [],
       "img": "img076.tga",
       "mask": [
         "mask076-000.tga",
@@ -553,6 +630,7 @@
       ]
     },
     {
+      "bounding": [],
       "img": "img077.tga",
       "mask": [
         "mask077-000.tga",
@@ -560,6 +638,7 @@
       ]
     },
     {
+      "bounding": [],
       "img": "img078.tga",
       "mask": [
         "mask078-000.tga",
@@ -567,6 +646,7 @@
       ]
     },
     {
+      "bounding": [],
       "img": "img079.tga",
       "mask": [
         "mask079-000.tga",
@@ -574,6 +654,7 @@
       ]
     },
     {
+      "bounding": [],
       "img": "img080.tga",
       "mask": [
         "mask080-000.tga",
@@ -581,6 +662,7 @@
       ]
     },
     {
+      "bounding": [],
       "img": "img081.tga",
       "mask": [
         "mask081-000.tga",
@@ -588,6 +670,7 @@
       ]
     },
     {
+      "bounding": [],
       "img": "img082.tga",
       "mask": [
         "mask082-000.tga",
@@ -595,6 +678,7 @@
       ]
     },
     {
+      "bounding": [],
       "img": "img083.tga",
       "mask": [
         "mask083-000.tga",
@@ -602,6 +686,7 @@
       ]
     },
     {
+      "bounding": [],
       "img": "img084.tga",
       "mask": [
         "mask084-000.tga",
@@ -609,6 +694,7 @@
       ]
     },
     {
+      "bounding": [],
       "img": "img085.tga",
       "mask": [
         "mask085-000.tga",
@@ -616,6 +702,7 @@
       ]
     },
     {
+      "bounding": [],
       "img": "img086.tga",
       "mask": [
         "mask086-000.tga",
@@ -623,6 +710,7 @@
       ]
     },
     {
+      "bounding": [],
       "img": "img087.tga",
       "mask": [
         "mask087-000.tga",
@@ -630,6 +718,7 @@
       ]
     },
     {
+      "bounding": [],
       "img": "img088.tga",
       "mask": [
         "mask088-000.tga",
@@ -637,6 +726,7 @@
       ]
     },
     {
+      "bounding": [],
       "img": "img089.tga",
       "mask": [
         "mask089-000.tga",
@@ -644,6 +734,7 @@
       ]
     },
     {
+      "bounding": [],
       "img": "img090.tga",
       "mask": [
         "mask090-000.tga",
@@ -651,6 +742,7 @@
       ]
     },
     {
+      "bounding": [],
       "img": "img091.tga",
       "mask": [
         "mask091-000.tga",
@@ -658,6 +750,7 @@
       ]
     },
     {
+      "bounding": [],
       "img": "img092.tga",
       "mask": [
         "mask092-000.tga",
@@ -665,6 +758,7 @@
       ]
     },
     {
+      "bounding": [],
       "img": "img093.tga",
       "mask": [
         "mask093-000.tga",
@@ -672,6 +766,7 @@
       ]
     },
     {
+      "bounding": [],
       "img": "img094.tga",
       "mask": [
         "mask094-000.tga",
@@ -679,6 +774,7 @@
       ]
     },
     {
+      "bounding": [],
       "img": "img095.tga",
       "mask": [
         "mask095-000.tga",
@@ -686,6 +782,7 @@
       ]
     },
     {
+      "bounding": [],
       "img": "img096.tga",
       "mask": [
         "mask096-000.tga",
@@ -693,6 +790,7 @@
       ]
     },
     {
+      "bounding": [],
       "img": "img097.tga",
       "mask": [
         "mask097-000.tga",
@@ -700,6 +798,7 @@
       ]
     },
     {
+      "bounding": [],
       "img": "img098.tga",
       "mask": [
         "mask098-000.tga",
@@ -707,6 +806,7 @@
       ]
     },
     {
+      "bounding": [],
       "img": "img099.tga",
       "mask": [
         "mask099-000.tga",

@@ -5,7 +5,7 @@
     "_dim":"2",
     "_val":["10", "20"]
   },
-  "format": "tga",
+  "format": "png",
   "nbSample": "3",
   "nbMask": "1"
 }

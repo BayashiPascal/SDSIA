@@ -1,5 +1,5 @@
 # Import necessary modules
-import os, sys, json, glob, subprocess, re, shutil, numpy, scipy
+import os, sys, json, glob, subprocess, re, shutil, cv2, numpy
 
 # Base directory
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
@@ -186,6 +186,30 @@ class DataSet:
           if not os.path.exists(maskFilePath):
             return False
           
+          # Load the mask
+          imgMask = cv2.imread(maskFilePath, cv2.IMREAD_GRAYSCALE)
+
+          # If we could load the mask
+          if not imgMask is None:
+
+            # Get the bounding coordinates of the mask
+            yMax, xMax = numpy.max(numpy.where(imgMask != 255), 1)
+            yMin, xMin = numpy.min(numpy.where(imgMask != 255), 1)
+            
+            # Convert the bounding coordinates into yolo format
+            xRelCenter = \
+              0.5 * (xMax + xMin) / float(self._dim["_val"][0])
+            yRelCenter = \
+              0.5 * (yMax + yMin) / float(self._dim["_val"][1])
+            widthRel = (xMax - xMin + 1) / float(self._dim["_val"][0])
+            heightRel = (yMax - yMin + 1) / float(self._dim["_val"][1])
+            maskBoundingBox = \
+              [str(xRelCenter), str(yRelCenter), \
+              str(widthRel), str(heightRel)]
+
+            # Add the bounding box
+            maskBoundingBoxes.append(maskBoundingBox)
+            
           # Add the mask's name to the array of names
           maskFileNames.append(maskFileName)
           
@@ -193,7 +217,9 @@ class DataSet:
         os.remove(iniFilePath)
         
         # Add the image and mask to the list
-        self._images.append({"img":imgFileName, "mask":maskFileNames})
+        self._images.append( \
+          {"img":imgFileName, "mask":maskFileNames, \
+          "bounding":maskBoundingBoxes})
       
       # Return the success flag
       return True
@@ -708,22 +734,22 @@ class DataSetGenerator:
         '\n', 
         '000/003 Rendering image ' + 
         os.path.join(BASE_DIR, "UnitTestOut", "001", "001", "") + 
-        'img000.tga ...\n', 
+        'img000.png ...\n', 
         '        Rendering mask ' + 
         os.path.join(BASE_DIR, "UnitTestOut", "001", "001", "") + 
-        'mask000-000.tga ...\n', 
+        'mask000-000.png ...\n', 
         '001/003 Rendering image ' + 
         os.path.join(BASE_DIR, "UnitTestOut", "001", "001", "") + 
-        'img001.tga ...\n', 
+        'img001.png ...\n', 
         '        Rendering mask ' + 
         os.path.join(BASE_DIR, "UnitTestOut", "001", "001", "") + 
-        'mask001-000.tga ...\n', 
+        'mask001-000.png ...\n', 
         '002/003 Rendering image ' + 
         os.path.join(BASE_DIR, "UnitTestOut", "001", "001", "") + 
-        'img002.tga ...\n', 
+        'img002.png ...\n', 
         '        Rendering mask ' + 
         os.path.join(BASE_DIR, "UnitTestOut", "001", "001", "") + 
-        'mask002-000.tga ...\n', 
+        'mask002-000.png ...\n', 
         '\n', 
         'Generation of \n', 
         '  ' + os.path.join(BASE_DIR, "UnitTestOut", "001", "001") + 
@@ -739,22 +765,22 @@ class DataSetGenerator:
         '\n', 
         '000/003 Rendering image ' + 
         os.path.join(BASE_DIR, "UnitTestOut", "001", "002", "") + 
-        'img000.tga ...\n', 
+        'img000.png ...\n', 
         '        Rendering mask ' + 
         os.path.join(BASE_DIR, "UnitTestOut", "001", "002", "") + 
-        'mask000-000.tga ...\n', 
+        'mask000-000.png ...\n', 
         '001/003 Rendering image ' + 
         os.path.join(BASE_DIR, "UnitTestOut", "001", "002", "") + 
-        'img001.tga ...\n', 
+        'img001.png ...\n', 
         '        Rendering mask ' + 
         os.path.join(BASE_DIR, "UnitTestOut", "001", "002", "") + 
-        'mask001-000.tga ...\n', 
+        'mask001-000.png ...\n', 
         '002/003 Rendering image ' + 
         os.path.join(BASE_DIR, "UnitTestOut", "001", "002", "") + 
-        'img002.tga ...\n', 
+        'img002.png ...\n', 
         '        Rendering mask ' + 
         os.path.join(BASE_DIR, "UnitTestOut", "001", "002", "") + 
-        'mask002-000.tga ...\n', 
+        'mask002-000.png ...\n', 
         '\n', 
         'Generation of \n', 
         '  ' + 
@@ -819,31 +845,31 @@ class DataSetGenerator:
           not os.path.exists(os.path.join("UnitTestOut", "001", "001",
           "dataset.json")) or \
           not os.path.exists(os.path.join("UnitTestOut", "001", "001",
-          "img000.tga")) or \
+          "img000.png")) or \
           not os.path.exists(os.path.join("UnitTestOut", "001", "001",
-          "img001.tga")) or \
+          "img001.png")) or \
           not os.path.exists(os.path.join("UnitTestOut", "001", "001",
-          "img002.tga")) or \
+          "img002.png")) or \
           not os.path.exists(os.path.join("UnitTestOut", "001", "001",
-          "mask000-000.tga")) or \
+          "mask000-000.png")) or \
           not os.path.exists(os.path.join("UnitTestOut", "001", "001",
-          "mask001-000.tga")) or \
+          "mask001-000.png")) or \
           not os.path.exists(os.path.join("UnitTestOut", "001", "001",
-          "mask002-000.tga")) or \
+          "mask002-000.png")) or \
           not os.path.exists(os.path.join("UnitTestOut", "001", "002",
           "dataset.json")) or \
           not os.path.exists(os.path.join("UnitTestOut", "001", "002",
-          "img000.tga")) or \
+          "img000.png")) or \
           not os.path.exists(os.path.join("UnitTestOut", "001", "002",
-          "img001.tga")) or \
+          "img001.png")) or \
           not os.path.exists(os.path.join("UnitTestOut", "001", "002",
-          "img002.tga")) or \
+          "img002.png")) or \
           not os.path.exists(os.path.join("UnitTestOut", "001", "002",
-          "mask000-000.tga")) or \
+          "mask000-000.png")) or \
           not os.path.exists(os.path.join("UnitTestOut", "001", "002",
-          "mask001-000.tga")) or \
+          "mask001-000.png")) or \
           not os.path.exists(os.path.join("UnitTestOut", "001", "002",
-          "mask002-000.tga")) or \
+          "mask002-000.png")) or \
           not os.path.exists(os.path.join("UnitTestOut", "002", "001",
           "dataset.json")) or \
           not os.path.exists(os.path.join("UnitTestOut", "002", "001",
@@ -903,17 +929,17 @@ class DataSetGenerator:
           '\n', 
         '\n', 
         '000/003 Rendering image ' + os.path.join(BASE_DIR, \
-          "UnitTestOut", "001", "001", "") + 'img000.tga ...\n', 
+          "UnitTestOut", "001", "001", "") + 'img000.png ...\n', 
         '        Rendering mask ' + os.path.join(BASE_DIR, \
-          "UnitTestOut", "001", "001", "") + 'mask000-000.tga ...\n', 
+          "UnitTestOut", "001", "001", "") + 'mask000-000.png ...\n', 
         '001/003 Rendering image ' + os.path.join(BASE_DIR, \
-          "UnitTestOut", "001", "001", "") + 'img001.tga ...\n', 
+          "UnitTestOut", "001", "001", "") + 'img001.png ...\n', 
         '        Rendering mask ' + os.path.join(BASE_DIR, \
-          "UnitTestOut", "001", "001", "") + 'mask001-000.tga ...\n', 
+          "UnitTestOut", "001", "001", "") + 'mask001-000.png ...\n', 
         '002/003 Rendering image ' + os.path.join(BASE_DIR, \
-          "UnitTestOut", "001", "001", "") + 'img002.tga ...\n', 
+          "UnitTestOut", "001", "001", "") + 'img002.png ...\n', 
         '        Rendering mask ' + os.path.join(BASE_DIR, \
-          "UnitTestOut", "001", "001", "") + 'mask002-000.tga ...\n', 
+          "UnitTestOut", "001", "001", "") + 'mask002-000.png ...\n', 
         '\n', 
         'Generation of \n', 
         '  ' + os.path.join(BASE_DIR, "UnitTestOut", "001", "001") + \
@@ -928,17 +954,17 @@ class DataSetGenerator:
           '\n', 
         '\n', 
         '000/003 Rendering image ' + os.path.join(BASE_DIR, \
-          "UnitTestOut", "001", "002", "") + 'img000.tga ...\n', 
+          "UnitTestOut", "001", "002", "") + 'img000.png ...\n', 
         '        Rendering mask ' + os.path.join(BASE_DIR, \
-          "UnitTestOut", "001", "002", "") + 'mask000-000.tga ...\n', 
+          "UnitTestOut", "001", "002", "") + 'mask000-000.png ...\n', 
         '001/003 Rendering image ' + os.path.join(BASE_DIR, \
-          "UnitTestOut", "001", "002", "") + 'img001.tga ...\n', 
+          "UnitTestOut", "001", "002", "") + 'img001.png ...\n', 
         '        Rendering mask ' + os.path.join(BASE_DIR, \
-          "UnitTestOut", "001", "002", "") + 'mask001-000.tga ...\n', 
+          "UnitTestOut", "001", "002", "") + 'mask001-000.png ...\n', 
         '002/003 Rendering image ' + os.path.join(BASE_DIR, \
-          "UnitTestOut", "001", "002", "") + 'img002.tga ...\n', 
+          "UnitTestOut", "001", "002", "") + 'img002.png ...\n', 
         '        Rendering mask ' + os.path.join(BASE_DIR, \
-          "UnitTestOut", "001", "002", "") + 'mask002-000.tga ...\n', 
+          "UnitTestOut", "001", "002", "") + 'mask002-000.png ...\n', 
         '\n', 
         'Generation of \n',
         '  ' + os.path.join(BASE_DIR, "UnitTestOut", "001", "002") + \

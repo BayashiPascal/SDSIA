@@ -14,6 +14,7 @@
   "nbSample": "3",
   "samples": [
     {
+      "bounding": [],
       "img": "img000.tga",
       "mask": [
         "mask000-000.tga",
@@ -21,6 +22,7 @@
       ]
     },
     {
+      "bounding": [],
       "img": "img001.tga",
       "mask": [
         "mask001-000.tga",
@@ -28,6 +30,7 @@
       ]
     },
     {
+      "bounding": [],
       "img": "img002.tga",
       "mask": [
         "mask002-000.tga",

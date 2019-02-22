@@ -9,26 +9,50 @@
       "20"
     ]
   },
-  "format": "tga",
+  "format": "png",
   "nbMask": "1",
   "nbSample": "3",
   "samples": [
     {
-      "img": "img000.tga",
+      "bounding": [
+        [
+          "0.45",
+          "0.475",
+          "0.4",
+          "0.3"
+        ]
+      ],
+      "img": "img000.png",
       "mask": [
-        "mask000-000.tga"
+        "mask000-000.png"
       ]
     },
     {
-      "img": "img001.tga",
+      "bounding": [
+        [
+          "0.5",
+          "0.475",
+          "0.3",
+          "0.3"
+        ]
+      ],
+      "img": "img001.png",
       "mask": [
-        "mask001-000.tga"
+        "mask001-000.png"
       ]
     },
     {
-      "img": "img002.tga",
+      "bounding": [
+        [
+          "0.55",
+          "0.475",
+          "0.4",
+          "0.3"
+        ]
+      ],
+      "img": "img002.png",
       "mask": [
-        "mask002-000.tga"
+        "mask002-000.png"
       ]
     }
   ]

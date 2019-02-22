@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.10.18)  22 FEB 2019 21:45
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.10.18)  22 FEB 2019 23:29
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -538,233 +538,240 @@ Underfull \hbox (badness 10000) in paragraph at lines 17--18
 
  []
 
+
+Underfull \hbox (badness 10000) in paragraph at lines 19--20
+
+ []
+
 [2]
 File: ../unitTestPythonRef.txt  (verbatim)
 
-Underfull \hbox (badness 10000) in paragraph at lines 35--36
+Underfull \hbox (badness 10000) in paragraph at lines 37--38
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 37--40
+Underfull \hbox (badness 10000) in paragraph at lines 39--42
 
  []
 
 File: ../dataset2.json  (verbatim)
 
-Underfull \hbox (badness 10000) in paragraph at lines 44--45
+Underfull \hbox (badness 10000) in paragraph at lines 46--47
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 46--49
+Underfull \hbox (badness 10000) in paragraph at lines 48--51
 
  []
 
 File: ../dataset.pov  (verbatim)
 [3] [4]
-Overfull \hbox (7.92499pt too wide) in paragraph at lines 53--54
+Overfull \hbox (7.92499pt too wide) in paragraph at lines 55--56
 []\OT1/cmr/m/n/12 These files must be saved with names, re-spec-tively, \OT1/cm
 tt/m/n/12 dataset-XXX-YYY.json
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 53--54
+Underfull \hbox (badness 10000) in paragraph at lines 55--56
 
  []
 
 [5]
-Underfull \hbox (badness 10000) in paragraph at lines 103--104
+Underfull \hbox (badness 10000) in paragraph at lines 105--106
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 105--108
+Underfull \hbox (badness 10000) in paragraph at lines 107--110
 
  []
 
 File: ../UnitTestOut/001/001/dataset.json  (verbatim)
 [6]
-Underfull \hbox (badness 10000) in paragraph at lines 112--113
-
- []
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 114--115
 
  []
 
 
-Overfull \hbox (43.63051pt too wide) in paragraph at lines 118--121
+Underfull \hbox (badness 10000) in paragraph at lines 116--117
+
+ []
+
+
+Overfull \hbox (43.63051pt too wide) in paragraph at lines 120--123
 \OT1/cmr/m/n/12 One can get a list-ing of the data sets with the com-mand \OT1/
 cmtt/m/n/12 python generateDataSet.py
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 118--121
+Underfull \hbox (badness 10000) in paragraph at lines 120--123
 
  []
 
 File: ../listing.txt  (verbatim)
-
-Underfull \hbox (badness 10000) in paragraph at lines 125--126
+[7]
+Underfull \hbox (badness 10000) in paragraph at lines 127--128
 
  []
 
 File: ../generateDataSet.py  (verbatim)
-[7] [8] [9] [10] [11] [12] [13] [14] [15] [16] [17] [18] [19] [20] [21]
-[22] [23]
+[8] [9] [10] [11] [12] [13] [14] [15] [16] [17] [18] [19] [20] [21] [22]
+[23] [24]
 File: ../exampleUse.py  (verbatim)
- [24] [25]
+ [25]
 File: ../unitTestRef.txt  (verbatim)
+ [26]
 File: ../Makefile  (verbatim)
 File: ../POV/dataset-001-001.json  (verbatim)
- [26] <./img-001-001.png, id=92, 250.9375pt x 250.9375pt>
+ <./img-001-001.png, id=92, 250.9375pt x 250.9375pt>
 File: ./img-001-001.png Graphic file (type png)
 
 <use ./img-001-001.png>
-Package pdftex.def Info: ./img-001-001.png used on input line 181.
+Package pdftex.def Info: ./img-001-001.png used on input line 183.
 (pdftex.def)             Requested size: 85.35826pt x 85.35973pt.
  <./mask-001-001.png, id=93, 250.9375pt x 250.9375pt>
 File: ./mask-001-001.png Graphic file (type png)
 
 <use ./mask-001-001.png>
-Package pdftex.def Info: ./mask-001-001.png used on input line 182.
+Package pdftex.def Info: ./mask-001-001.png used on input line 184.
 (pdftex.def)             Requested size: 85.35826pt x 85.35973pt.
+ [27]
 File: ../POV/dataset-001-001.pov  (verbatim)
- [27 <./img-001-001.png> <./mask-001-001.png>]
 File: ../POV/dataset-001-002.json  (verbatim)
-
-<./img-001-002.png, id=97, 250.9375pt x 250.9375pt>
+ [28 <./img-001-001.png> <./mask-001-001.png>]
+<./img-001-002.png, id=100, 250.9375pt x 250.9375pt>
 File: ./img-001-002.png Graphic file (type png)
  <use ./img-001-002.png>
-Package pdftex.def Info: ./img-001-002.png used on input line 205.
+Package pdftex.def Info: ./img-001-002.png used on input line 207.
 (pdftex.def)             Requested size: 85.35826pt x 85.35973pt.
 
-<./mask-001-002.png, id=98, 250.9375pt x 250.9375pt>
+<./mask-001-002.png, id=101, 250.9375pt x 250.9375pt>
 File: ./mask-001-002.png Graphic file (type png)
  <use ./mask-001-002.png>
-Package pdftex.def Info: ./mask-001-002.png used on input line 206.
+Package pdftex.def Info: ./mask-001-002.png used on input line 208.
 (pdftex.def)             Requested size: 85.35826pt x 85.35973pt.
 File: ../POV/dataset-001-002.pov  (verbatim)
 
-[28 <./img-001-002.png> <./mask-001-002.png>]
+[29 <./img-001-002.png> <./mask-001-002.png>]
 File: ../POV/dataset-001-003.json  (verbatim)
 
-Overfull \hbox (132.7575pt too wide) in paragraph at lines 222--222
+Overfull \hbox (132.7575pt too wide) in paragraph at lines 224--224
 []  \OT1/cmtt/m/n/8 "desc": "A cube of various uniform color on a background of
  various uniform color. Various position, size and rotation.",[] 
  []
 
-<./img-001-003.png, id=102, 250.9375pt x 250.9375pt>
+<./img-001-003.png, id=105, 250.9375pt x 250.9375pt>
 File: ./img-001-003.png Graphic file (type png)
  <use ./img-001-003.png>
-Package pdftex.def Info: ./img-001-003.png used on input line 229.
+Package pdftex.def Info: ./img-001-003.png used on input line 231.
 (pdftex.def)             Requested size: 85.35826pt x 85.35973pt.
 
-<./mask-001-003.png, id=103, 250.9375pt x 250.9375pt>
+<./mask-001-003.png, id=106, 250.9375pt x 250.9375pt>
 File: ./mask-001-003.png Graphic file (type png)
  <use ./mask-001-003.png>
-Package pdftex.def Info: ./mask-001-003.png used on input line 230.
+Package pdftex.def Info: ./mask-001-003.png used on input line 232.
 (pdftex.def)             Requested size: 85.35826pt x 85.35973pt.
 File: ../POV/dataset-001-003.pov  (verbatim)
 
-[29 <./img-001-003.png> <./mask-001-003.png>]
+[30 <./img-001-003.png> <./mask-001-003.png>]
 File: ../POV/dataset-001-004.json  (verbatim)
 
-Overfull \hbox (149.75775pt too wide) in paragraph at lines 246--246
+Overfull \hbox (149.75775pt too wide) in paragraph at lines 248--248
 []  \OT1/cmtt/m/n/8 "desc": "A cube of various non-uniform color on a backgroun
 d of various uniform color. Various position, size and rotation.",[] 
  []
 
-[30] <./img-001-004.png, id=110, 250.9375pt x 250.9375pt>
+<./img-001-004.png, id=110, 250.9375pt x 250.9375pt>
 File: ./img-001-004.png Graphic file (type png)
-
-<use ./img-001-004.png>
-Package pdftex.def Info: ./img-001-004.png used on input line 253.
+ <use ./img-001-004.png>
+Package pdftex.def Info: ./img-001-004.png used on input line 255.
 (pdftex.def)             Requested size: 85.35826pt x 85.35973pt.
- <./mask-001-004.png, id=111, 250.9375pt x 250.9375pt>
+
+<./mask-001-004.png, id=111, 250.9375pt x 250.9375pt>
 File: ./mask-001-004.png Graphic file (type png)
-
-<use ./mask-001-004.png>
-Package pdftex.def Info: ./mask-001-004.png used on input line 254.
+ <use ./mask-001-004.png>
+Package pdftex.def Info: ./mask-001-004.png used on input line 256.
 (pdftex.def)             Requested size: 85.35826pt x 85.35973pt.
+
+[31]
 File: ../POV/dataset-001-004.pov  (verbatim)
- [31 <./img-001-004.png> <./mask-001-004.png>]
+ [32 <./img-001-004.png> <./mask-001-004.png>]
 File: ../POV/dataset-002-001.json  (verbatim)
 
-Overfull \hbox (149.75775pt too wide) in paragraph at lines 270--270
+Overfull \hbox (149.75775pt too wide) in paragraph at lines 272--272
 []  \OT1/cmtt/m/n/8 "desc": "A red cube and a blue cylinder on a white backgrou
 nd. Various position, size and rotation. The cube is the target.",[] 
  []
 
-<./img-002-001.png, id=116, 250.9375pt x 250.9375pt>
+<./img-002-001.png, id=119, 250.9375pt x 250.9375pt>
 File: ./img-002-001.png Graphic file (type png)
  <use ./img-002-001.png>
-Package pdftex.def Info: ./img-002-001.png used on input line 277.
+Package pdftex.def Info: ./img-002-001.png used on input line 279.
 (pdftex.def)             Requested size: 85.35826pt x 85.35973pt.
 
-<./mask-002-001-000.png, id=117, 250.9375pt x 250.9375pt>
+<./mask-002-001-000.png, id=120, 250.9375pt x 250.9375pt>
 File: ./mask-002-001-000.png Graphic file (type png)
 
 <use ./mask-002-001-000.png>
-Package pdftex.def Info: ./mask-002-001-000.png used on input line 278.
+Package pdftex.def Info: ./mask-002-001-000.png used on input line 280.
 (pdftex.def)             Requested size: 85.35826pt x 85.35973pt.
 
-<./mask-002-001-001.png, id=118, 250.9375pt x 250.9375pt>
+<./mask-002-001-001.png, id=121, 250.9375pt x 250.9375pt>
 File: ./mask-002-001-001.png Graphic file (type png)
 
 <use ./mask-002-001-001.png>
-Package pdftex.def Info: ./mask-002-001-001.png used on input line 279.
+Package pdftex.def Info: ./mask-002-001-001.png used on input line 281.
 (pdftex.def)             Requested size: 85.35826pt x 85.35973pt.
 File: ../POV/dataset-002-001.pov  (verbatim)
- [32 <./img-002-001.png (PNG copy)> <./mask-002-001-000.png (PNG copy)> <./mask
--002-001-001.png (PNG copy)>] [33]
+ [33 <./img-002-001.png (PNG copy)> <./mask-002-001-000.png (PNG copy)> <./mask
+-002-001-001.png (PNG copy)>]
 File: ../POV/dataset-002-002.json  (verbatim)
 
-Overfull \hbox (438.7619pt too wide) in paragraph at lines 295--295
+Overfull \hbox (438.7619pt too wide) in paragraph at lines 297--297
 []  \OT1/cmtt/m/n/8 "desc": "A cube of various non-uniform color and a cylinder
  of various non-uniform color on a background of various uniform color. Various
  position, size and rotation. The cube is the target.",[] 
  []
 
-<./img-002-002.png, id=125, 250.9375pt x 250.9375pt>
+[34] <./img-002-002.png, id=128, 250.9375pt x 250.9375pt>
 File: ./img-002-002.png Graphic file (type png)
- <use ./img-002-002.png>
-Package pdftex.def Info: ./img-002-002.png used on input line 302.
-(pdftex.def)             Requested size: 85.35826pt x 85.35973pt.
 
-<./mask-002-002.png, id=126, 250.9375pt x 250.9375pt>
+<use ./img-002-002.png>
+Package pdftex.def Info: ./img-002-002.png used on input line 304.
+(pdftex.def)             Requested size: 85.35826pt x 85.35973pt.
+ <./mask-002-002.png, id=129, 250.9375pt x 250.9375pt>
 File: ./mask-002-002.png Graphic file (type png)
- <use ./mask-002-002.png>
-Package pdftex.def Info: ./mask-002-002.png used on input line 303.
+
+<use ./mask-002-002.png>
+Package pdftex.def Info: ./mask-002-002.png used on input line 305.
 (pdftex.def)             Requested size: 85.35826pt x 85.35973pt.
 File: ../POV/dataset-002-002.pov  (verbatim)
-
-[34 <./img-002-002.png> <./mask-002-002.png>]
+ [35 <./img-002-002.png> <./mask-002-002.png>]
 File: ../POV/dataset-002-003.json  (verbatim)
 
-Overfull \hbox (447.26202pt too wide) in paragraph at lines 319--319
+Overfull \hbox (447.26202pt too wide) in paragraph at lines 321--321
 []  \OT1/cmtt/m/n/8 "desc": "A cube of various non-uniform color and 20 cylinde
 rs of various non-uniform color on a background of various uniform color. Vario
 us position, size and rotation. The cube is the target.",[] 
  []
 
-[35] <./img-002-003.png, id=133, 250.9375pt x 250.9375pt>
+[36] <./img-002-003.png, id=136, 250.9375pt x 250.9375pt>
 File: ./img-002-003.png Graphic file (type png)
 
 <use ./img-002-003.png>
-Package pdftex.def Info: ./img-002-003.png used on input line 326.
+Package pdftex.def Info: ./img-002-003.png used on input line 328.
 (pdftex.def)             Requested size: 85.35826pt x 85.35973pt.
- <./mask-002-003.png, id=134, 250.9375pt x 250.9375pt>
+ <./mask-002-003.png, id=137, 250.9375pt x 250.9375pt>
 File: ./mask-002-003.png Graphic file (type png)
 
 <use ./mask-002-003.png>
-Package pdftex.def Info: ./mask-002-003.png used on input line 327.
+Package pdftex.def Info: ./mask-002-003.png used on input line 329.
 (pdftex.def)             Requested size: 85.35826pt x 85.35973pt.
 File: ../POV/dataset-002-003.pov  (verbatim)
- [36 <./img-002-003.png> <./mask-002-003.png>])
-[37] (./doc.aux) ) 
+ [37 <./img-002-003.png> <./mask-002-003.png>])
+[38] (./doc.aux) ) 
 Here is how much of TeX's memory you used:
  13381 strings out of 494314
  257569 string characters out of 6163111
@@ -780,9 +787,9 @@ usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/sh
 are/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt8.pfb>
 
 pdfTeX warning: pdflatex: no GlyphToUnicode entry has been inserted yet!
-Output written on doc.pdf (37 pages, 249438 bytes).
+Output written on doc.pdf (38 pages, 251889 bytes).
 PDF statistics:
- 161 PDF objects out of 1000 (max. 8388607)
+ 164 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  88 words of extra memory for PDF output out of 10000 (max. 10000000)
 
