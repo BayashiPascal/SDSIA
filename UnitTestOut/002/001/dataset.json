@@ -16,58 +16,22 @@
     {
       "img": "img000.tga",
       "mask": [
-        "mask000.tga"
+        "mask000-000.tga",
+        "mask000-001.tga"
       ]
     },
     {
       "img": "img001.tga",
       "mask": [
-        "mask001.tga"
+        "mask001-000.tga",
+        "mask001-001.tga"
       ]
     },
     {
       "img": "img002.tga",
       "mask": [
-        "mask002.tga"
-      ]
-    },
-    {
-      "img": "img000.tga",
-      "mask": [
-        "mask000.tga"
-      ]
-    },
-    {
-      "img": "img001.tga",
-      "mask": [
-        "mask001.tga"
-      ]
-    },
-    {
-      "img": "img002.tga",
-      "mask": [
-        "mask002.tga"
-      ]
-    },
-    {
-      "img": "img000.tga",
-      "mask": [
-        "mask000.tga",
-        "mask000.tga"
-      ]
-    },
-    {
-      "img": "img001.tga",
-      "mask": [
-        "mask001.tga",
-        "mask001.tga"
-      ]
-    },
-    {
-      "img": "img002.tga",
-      "mask": [
-        "mask002.tga",
-        "mask002.tga"
+        "mask002-000.tga",
+        "mask002-001.tga"
       ]
     }
   ]

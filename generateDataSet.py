@@ -105,17 +105,18 @@ class DataSet:
     '''
     try:
       
+      # Flush the result list
+      self._images = []
+      
       # Loop on the number of images to be rendered
       for iRender in range(int(self._nbSample)):
         
-        # Create the file name of the image and mask
+        # Create the file name of the image
         iRenderPadded = str(iRender).zfill(3)
         imgFileName = "img" + iRenderPadded + "." + self._format
-        maskFileName = "mask" + iRenderPadded + "." + self._format
 
-        # Create the full path of the image and mask
+        # Create the full path of the image
         imgFilePath = os.path.join(outFolder, imgFileName)
-        maskFilePath = os.path.join(outFolder, maskFileName)
         
         # Create the full path to the pov file
         povFilePath = os.path.join(inFolder, self._name + ".pov")
@@ -126,7 +127,7 @@ class DataSet:
         # Create the command to render the image
         cmd = []
         cmd.append("povray")
-        cmd.append("+Oimg" + iRenderPadded + "." + self._format)
+        cmd.append("+O" + imgFileName)
         cmd.append("-W" + self._dim["_val"][0])
         cmd.append("-H" + self._dim["_val"][1])
         cmd.append("-D")
@@ -166,33 +167,32 @@ class DataSet:
         maskBoundingBoxes = []
         for iMask in range(int(self._nbMask)):
           iMaskPadded = str(iMask).zfill(3)
+          maskFileName = "mask" + iRenderPadded + "-" + iMaskPadded + \
+            "." + self._format
+          maskFilePath = os.path.join(outFolder, maskFileName)
 
           # Update the command and the ini file to render the mask
-          cmd[1] = "+Omask" + iRenderPadded + "-" + iMaskPadded + \
-            "." + self._format
+          cmd[1] = "+O" + maskFileName
           cmd[6] = "-Q0"
 
           with open(iniFilePath, "w") as fp:
             fp.write("Declare=Mask=" + str(iMask + 1))
           
           # Render the mask silently
-          maskPath = os.path.join(outFolder, \
-            "mask" + iRenderPadded + "-" + iMaskPadded + "." + \
-            self._format)
-          print("        Rendering mask " + maskPath + " ...");
+          print("        Rendering mask " + maskFilePath + " ...");
           subprocess.call(cmd, stderr = FNULL, cwd = outFolder)
 
           # Check if the mask has been created
-          if not os.path.exists(maskPath):
+          if not os.path.exists(maskFilePath):
             return False
           
-          # Add the mask path to the array of pathes
+          # Add the mask's name to the array of names
           maskFileNames.append(maskFileName)
           
         # Remove the ini file
         os.remove(iniFilePath)
         
-        # Add the image and mask to the lists
+        # Add the image and mask to the list
         self._images.append({"img":imgFileName, "mask":maskFileNames})
       
       # Return the success flag

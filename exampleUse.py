@@ -36,6 +36,7 @@ def Main(dataSetFolderPath):
     # Display info about the data set
     print("Description: " + dataSetDesc["desc"])
     print("Nb image: " + dataSetDesc["nbSample"])
+    print("Nb mask: " + dataSetDesc["nbMask"])
     print("Dimension image (width, height): " + str(dataSetDesc["dim"]))
     print("Format image: " + dataSetDesc["format"])
     
@@ -44,24 +45,29 @@ def Main(dataSetFolderPath):
       
       # Get the path to the image and mask
       imgFileName = dataSetDesc["samples"][iSample]["img"]
-      maskFileName = dataSetDesc["samples"][iSample]["mask"]
+      maskFileNames = dataSetDesc["samples"][iSample]["mask"]
       imgFilePath = os.path.join(dataSetFolderPath, imgFileName)
-      maskFilePath = os.path.join(dataSetFolderPath, maskFileName)
      
       # Check the full paths are valid
       if not os.path.exists(imgFilePath):
         print("Description file corrupted. The image " + \
           imageFilePath + " doesn't exists")
         quit()
-      if not os.path.exists(maskFilePath):
-        print("Description file corrupted. The mask " + \
-          maskFilePath + " doesn't exists")
-        quit()
-      
-      # Train on the pair image-mask
-      # In the mask, the black pixels match the target and the white
-      # pixels match the non-target
-      print("Train on (" + imgFilePath + ", " + maskFilePath + ")")
+        
+      # Loop on masks
+      for maskFileName in maskFileNames:
+        
+        # Check for the existence of the mask
+        maskFilePath = os.path.join(dataSetFolderPath, maskFileName)
+        if not os.path.exists(maskFilePath):
+          print("Description file corrupted. The mask " + \
+            maskFilePath + " doesn't exists")
+          quit()
+        
+        # Train on the pair image-mask
+        # In the mask, the black pixels match the target and the white
+        # pixels match the non-target
+        print("Train on (" + imgFilePath + ", " + maskFilePath + ")")
     
   except Exception as exc:
     PrintExc(exc)
