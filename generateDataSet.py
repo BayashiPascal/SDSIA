@@ -270,7 +270,7 @@ class DataSetGenerator:
         
         # Help
         if args[iArg] == "-help":
-          print("server.py" + \
+          print("generateDataSet.py" + \
             " [-in <povFolder|povFile>] [-out <dataSetFolder>]" + \
             " [-force] [-simul] [-list] [-unitTest] [-help]")
           print("-in: folder containing the pov files, or one pov file")

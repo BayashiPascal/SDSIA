@@ -35,8 +35,8 @@ light_source {
 // Background
 background { color rgb <1.0, 1.0, 1.0> }
 
-// Target 1 definition
-#declare Target = box {
+// Target A definition
+#declare TargetA = box {
   -1, 1
 
   // Transformation of the target to create various samples
@@ -58,8 +58,8 @@ background { color rgb <1.0, 1.0, 1.0> }
 
 }
 
-// Target 2 definition
-#declare NonTarget = cylinder { 
+// Target B definition
+#declare TargetB = cylinder { 
   -y, y, 0.5
   
   // Transformation of the non-target to create various samples
@@ -82,5 +82,5 @@ background { color rgb <1.0, 1.0, 1.0> }
 }
 
 // Create the scene
-object { Target }
-object { NonTarget }
+object { TargetA }
+object { TargetB }
