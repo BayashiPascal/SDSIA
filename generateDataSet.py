@@ -1,8 +1,31 @@
 # Import necessary modules
-import os, sys, json, glob, subprocess, re, shutil, cv2, numpy
+import os, sys, json, glob, subprocess, re, shutil, cv2, numpy, platform
 
+# Check the version of Python
+version = sys.version_info
+if str(version.major) + "." + str(version.minor) < "3.3":
+  print("Sorry, require python version >= 3.3")
+  quit()
+  
 # Base directory
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+
+# Command line for the POV-Ray executable
+if platform.system() == "Linux":
+  POVRAY_EXE = "povray"
+elif platform.system() == "Windows":
+  POVRAY_EXE = "pvengine.exe"
+else:
+  print("Sorry, unsupported system (" + str(platform.system()) + \
+    ")")
+  quit()
+
+# Check that the POV-Ray executable is correctly found
+if not shutil.which(POVRAY_EXE):
+  print("Sorry, the command '" + POVRAY_EXE + \
+    "' couldn't be understood. Check your installation of POV-Ray " + \
+    "and/or update the value of POVRAY_EXE in " + __file__)
+  quit()
 
 # Function to print exceptions
 def PrintExc(exc):
@@ -28,7 +51,6 @@ class DataSet:
   _format = "tga"
   # List of images and their masks
   _images = []
-  
 
   def __init__(self, templateFilePath):
     '''
@@ -126,7 +148,7 @@ class DataSet:
         
         # Create the command to render the image
         cmd = []
-        cmd.append("povray")
+        cmd.append(POVRAY_EXE)
         cmd.append("+O" + imgFileName)
         cmd.append("-W" + self._dim["_val"][0])
         cmd.append("-H" + self._dim["_val"][1])
@@ -145,6 +167,10 @@ class DataSet:
         cmd.append(povFormat)
         cmd.append("+I" + povFilePath)
         cmd.append(iniFilePath)
+        # Avoid statying blocked on the terminal displaying info
+        # when running on windows
+        if platform.system() == "Windows":
+          cmd.append("/EXIT")
 
         # Create the ini file used to render
         with open(iniFilePath, "w") as fp:
@@ -429,15 +455,15 @@ class DataSetGenerator:
           
           # Print a mark to show if the set has been generated
           if isGenNecessary:
-            print("[ ] "),
+            prefix = "[ ]  "
           else:
-            print("[*] "),
+            prefix = "[*]  "
 
           # Load the data set info
           dataSet = DataSet(templateFilePath)
           
           # Print the set name and descrition
-          print(dataSet._name + ": " + dataSet._desc)
+          print(prefix + dataSet._name + ": " + dataSet._desc)
 
           
         # Else we are not in listing mode
@@ -618,7 +644,7 @@ class DataSetGenerator:
 
       # Test listing
       cmd = []
-      cmd.append("python")
+      cmd.append("python3")
       cmd.append("generateDataSet.py")
       cmd.append("-in")
       cmd.append("UnitTestIn")
@@ -640,7 +666,7 @@ class DataSetGenerator:
       
       # Test simulation
       cmd = []
-      cmd.append("python")
+      cmd.append("python3")
       cmd.append("generateDataSet.py")
       cmd.append("-in")
       cmd.append("UnitTestIn")

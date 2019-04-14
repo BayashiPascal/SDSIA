@@ -1,24 +1,24 @@
 help: 
-	python generateDataSet.py -help
+	python3 generateDataSet.py -help
 
 cleanDataSet:
 	rm -r DataSets/*
 
 generate:
-	python generateDataSet.py
+	python3 generateDataSet.py
 
 regenerate: 
-	python generateDataSet.py -force
+	python3 generateDataSet.py -force
 
 simul: 
-	python generateDataSet.py -simul
+	python3 generateDataSet.py -simul
 
 listing: 
-	python generateDataSet.py -list
+	python3 generateDataSet.py -list
 
 unitTest:
-	python generateDataSet.py -unitTest
+	python3 generateDataSet.py -unitTest
 
 exampleUse:
-	python exampleUse.py UnitTestOut/001/001/
+	python3 exampleUse.py UnitTestOut/001/001/
 

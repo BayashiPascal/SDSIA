@@ -20,7 +20,7 @@ The current version of SDSIA is designed for image segmentation (localization of
 
 The Python module doesn't require any particular operation, but you will need to have the following Python modules installed on your machine:
 os, sys, json, glob, subprocess, re, shutil, cv2, numpy
-You will also need to have POV-Ray installed on your machien:
+You will also need to have POV-Ray installed on your machine:
 http://www.povray.org/
 If you need assistance feel free to contact me with my gmail address: at bayashipascal.
 
