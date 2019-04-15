@@ -24,11 +24,7 @@ light_source {
   color rgb 1.0
 }
 
-#if (Mask = 0)
-  background { color rgb <1.0, 0.0, 0.0> }
-#else
-  background { color rgb <1.0, 1.0, 1.0> }
-#end
+background { color rgb <1.0, 1.0, 1.0> }
 
 #declare Target = box {
   -1, 1
@@ -41,9 +37,9 @@ light_source {
       bozo 
       scale 0.5
       color_map { 
-        [0.0 color rgb <rnd(0.0, 1.0), rnd(0.0, 1.0), rnd(0.0, 1.0)>]
-        [0.0 color rgb <rnd(0.0, 1.0), rnd(0.0, 1.0), rnd(0.0, 1.0)>]
-        [1.0 color rgb <rnd(0.0, 1.0), rnd(0.0, 1.0), rnd(0.0, 1.0)>]
+        [0.0 color rgb <rnd(0.0, 0.9), rnd(0.0, 0.9), rnd(0.0, 0.9)>]
+        [0.0 color rgb <rnd(0.0, 0.9), rnd(0.0, 0.9), rnd(0.0, 0.9)>]
+        [1.0 color rgb <rnd(0.0, 0.9), rnd(0.0, 0.9), rnd(0.0, 0.9)>]
       }
     }
   #else

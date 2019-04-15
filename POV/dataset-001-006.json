@@ -1,6 +1,6 @@
 {
   "dataSetType": "1",
-  "desc": "A multicolor cube on a red background. Various position, rotation and size.",
+  "desc": "A cube of various color on a white background. Various position, rotation and size.",
   "dim": {
     "_dim":"2",
     "_val":["250", "250"]

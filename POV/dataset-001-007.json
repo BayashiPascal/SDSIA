@@ -1,0 +1,11 @@
+{
+  "dataSetType": "1",
+  "desc": "A cube of various color on a red background. Various position, rotation and size.",
+  "dim": {
+    "_dim":"2",
+    "_val":["250", "250"]
+  },
+  "format": "tga",
+  "nbSample": "100",
+  "nbMask" : "1"
+}
