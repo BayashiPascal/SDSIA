@@ -5,6 +5,8 @@
     "_dim":"2",
     "_val":["10", "20"]
   },
+  "nbInputs": "1",
+  "nbOutputs": "1",
   "format": "png",
   "nbSample": "3",
   "nbMask": "1"

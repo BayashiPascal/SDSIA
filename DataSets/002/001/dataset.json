@@ -9,6 +9,8 @@
       "250"
     ]
   },
+  "nbInputs": "1",
+  "nbOutputs": "1",
   "format": "tga",
   "nbMask": "2",
   "nbSample": "100",

@@ -5,6 +5,8 @@
     "_dim":"2",
     "_val":["100", "100"]
   },
+  "nbInputs": "1",
+  "nbOutputs": "1",
   "format": "tga",
   "nbSample": "100",
   "nbMask" : "1"
